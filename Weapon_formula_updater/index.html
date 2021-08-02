@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity weapon formula updater</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="other_stuff.js"></script>
+</head>
+<body>
+    <div class="main_box">
+            <form class="api_info">
+                <label for="input_url">Get information from:</label>
+                <input type="url" id="input_url" name="input_url" class="input" value="https://ice-mourne.github.io/Clarity-A-DIM-Companion-json/weapon_formulas/" placeholder="url for json file in github repository" required>
+
+                <label for="output_url">Send information to:</label>
+                <input type="url" id="output_url" name="output_url" class="input" placeholder="url for json file in github repository" required>
+
+                <label for="output_url">Github API key:</label>
+                <input type="text" id="github_api_key" name="github_api_key" class="input" placeholder="Github API key" required>
+
+                <input type="submit" value="Submit" class="submit_button">
+              </form>
+        <div class="weapon_selection">
+            <div>
+                <label for="weapon_type">Choose a weapon type:</label>
+                <select name="weapon_type" id="weapons">
+                    <option value="Auto Rifle"          >Auto Rifle</option>
+                    <option value="Combat Bow"          >Combat Bow</option>
+                    <option value="Fusion Rifle"        >Fusion Rifle</option>
+                    <option value="Grenade Launcher"    >Grenade Launcher</option>
+                    <option value="Hand Cannon"         >Hand Cannon</option>
+                    <option value="Linear Fusion Rifle">Linear Fusion Rifle</option>
+                    <option value="Machine Gun"         >Machine Gun</option>
+                    <option value="Pulse Rifle"         >Pulse Rifle</option>
+                    <option value="Rocket Launcher"     >Rocket Launcher</option>
+                    <option value="Scout Rifle"         >Scout Rifle</option>
+                    <option value="Shotgun"             >Shotgun</option>
+                    <option value="Sidearm"             >Sidearm</option>
+                    <option value="Sniper Rifle"        >Sniper Rifle</option>
+                    <option value="Submachine Gun"      >Submachine Gun</option>
+                    <option value="Sword"               >Sword</option>
+                    <option value="Trace Rifle"         >Trace Rifle</option>
+                </select>
+            </div>
+            <div>
+                <label for="frame_type">Choose a weapon frame:</label>
+                <select name="frame_type" id="frames">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+        </div>
+        <div class="weapon_stats">
+            <div>
+                <label>Range:</label>
+                <input type="number" id="range_value"        step="1" min="1"  max="100" class="input">
+            </div>
+            <div>
+                <label>Handling:</label>
+                <input type="number" id="handling_value"     step="1" min="1"  max="100" class="input">
+            </div>
+            <div>
+                <label>Reload speed:</label>
+                <input type="number" id="reload_speed_value" step="1" min="1"  max="100" class="input">
+            </div>
+            <div>
+                <label>Magazine:</label>
+                <input type="number" id="zoom_value"         step="1" min="1"  max="100" class="input">
+            </div>
+            <div>
+                <label>Zoom:</label>
+                <input type="number" id="magazine"           step="1" min="12" max="100" class="input">
+            </div>
+        </div>
+        <div class="calculator_box">
+            <div class='text_box'>
+                Reload formula
+            </div>
+            <div class='formula_box' id="reload_formula">
+                <div class='formula'>
+                    (formula.a * stat * stat + formula.b * stat + formula.c) * multiplayer = Reload in seconds
+                </div>
+                <div class="answer">
+                    reload in seconds = ???
+                </div>
+            </div>
+        </div>
+        <div class="calculator_box">
+            <div class='text_box'>
+                Range formula
+            </div>
+            <div class='formula_box'>
+                new_zoom = (zoom_stat - formula.zoom_tier) / 10 + formula.zrm
+                (range_stat * formula.vpp + formula.base_range) * new_zoom * zoom_multiplayer = Range in meters
+                Range in meters = ???
+            </div>
+        </div>
+        <div class="calculator_box">
+            <div class='text_box'>
+                Handling formula
+            </div>
+            <div class='formula_box'>
+                (-0.22154 * (HANDLING STAT) + 35.51692) * multiplayer = Ready Speed
+                Ready Speed = ???
+                (-0.17034 * (HANDLING STAT) + 30.60252) * multiplayer = Stow Speed
+                Stow Speed = ???
+            </div>
+        </div>
+    </div>
+</body>
+</html>

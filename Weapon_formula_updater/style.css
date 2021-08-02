@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(0deg, 0%, 13%);
+    display: flex;
+    justify-content: center;
+}
+.main_box{
+    align-content: center;
+    width: 1000px;
+    background-color: hsl(0deg, 0%, 9%);
+    color: hsl(0deg, 0%, 100%);
+    padding: 20px;
+}
+.weapon_selection, .weapon_stats{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.api_info{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+.input, #weapons, #frames, .submit_button{
+    background-color: hsl(0, 0%, 13%);
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2px;
+    border: 2px solid hsl(0, 0%, 30%);
+}
+.text_box{
+    font-size: 30px;
+    text-align: center;
+}
+.calculator_box{
+    border: 2px solid hsl(0, 0%, 30%);
+    padding: 5px
+}
+.formula_box{
+    white-space: pre-line;
+}
