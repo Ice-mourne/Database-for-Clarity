@@ -72,7 +72,7 @@
         "2189829540": {"name": "Adaptive Frame",   "category": "default"},
         "2757685314": {"name": "Aggressive Frame", "category": "120 RPM"},
         "2770223582": {"name": "The Last Word",    "category": "default"},
-        "3174300811": {"name": "Eriana's vow",     "category": null},
+        "3174300811": {"name": "Eriana's vow",     "category": "Eriana"},
         "3468089894": {"name": "Aggressive Frame", "category": "120 RPM"},
         "3923638944": {"name": "Double Fire",      "category": "default"},
         "4045839491": {"name": "Sunshot",          "category": "default"},
@@ -86,6 +86,11 @@
             "120 RPM": {
                 "range": {"zrm": 1.375, "tier": 14, "vpp": 0.1, "base": 19},
                 "reload": {"a": 0.000159282666666667, "b": -0.043624, "c": 4.61606666666667},
+                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+            },
+            "Eriana": {
+                "range": null,
+                "reload": null,
                 "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
             }
         }

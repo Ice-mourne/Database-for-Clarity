@@ -12,7 +12,7 @@
     <div class="main_box">
             <form class="api_info">
                 <label for="input_url">Get information from:</label>
-                <input type="url" id="input_url" name="input_url" class="input" value="https://ice-mourne.github.io/Clarity-A-DIM-Companion-json/weapon_formulas/" placeholder="url for json file in github repository" required>
+                <input type="url" id="input_url" name="input_url" class="input" value="https://ice-mourne.github.io/Database-for-Clarity/Database/weapon_formulas.json" placeholder="url for json file in github repository" required>
 
                 <label for="output_url">Send information to:</label>
                 <input type="url" id="output_url" name="output_url" class="input" placeholder="url for json file in github repository" required>
@@ -47,33 +47,30 @@
             <div>
                 <label for="frame_type">Choose a weapon frame:</label>
                 <select name="frame_type" id="frames">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
+
                 </select>
             </div>
         </div>
         <div class="weapon_stats">
             <div>
                 <label>Range:</label>
-                <input type="number" id="range_value"        step="1" min="1"  max="100" class="input">
+                <input type="number" id="range_value"        value="50" step="1" min="1"  max="100" class="input">
             </div>
             <div>
                 <label>Handling:</label>
-                <input type="number" id="handling_value"     step="1" min="1"  max="100" class="input">
+                <input type="number" id="handling_value"     value="50" step="1" min="1"  max="100" class="input">
             </div>
             <div>
                 <label>Reload speed:</label>
-                <input type="number" id="reload_speed_value" step="1" min="1"  max="100" class="input">
+                <input type="number" id="reload_speed_value" value="50" step="1" min="1"  max="100" class="input">
             </div>
             <div>
                 <label>Magazine:</label>
-                <input type="number" id="zoom_value"         step="1" min="1"  max="100" class="input">
+                <input type="number" id="zoom_value"         value="15" step="1" min="1"  max="100" class="input">
             </div>
             <div>
                 <label>Zoom:</label>
-                <input type="number" id="magazine"           step="1" min="12" max="100" class="input">
+                <input type="number" id="magazine"           value="12" step="1" min="12" max="100" class="input">
             </div>
         </div>
         <div class="calculator_box">
@@ -81,11 +78,11 @@
                 Reload formula
             </div>
             <div class='formula_box' id="reload_formula">
-                <div class='formula'>
-                    (formula.a * stat * stat + formula.b * stat + formula.c) * multiplayer = Reload in seconds
+                <div>
+                    (reload.a * stat * stat + reload.b * stat + reload.c) * Perk multiplayer = Reload in seconds
                 </div>
-                <div class="answer">
-                    reload in seconds = ???
+                <div class='formula'>
+                    (formula.a * stat * stat + formula.b * stat + formula.c) * Perk multiplayer = Reload in seconds
                 </div>
             </div>
         </div>
