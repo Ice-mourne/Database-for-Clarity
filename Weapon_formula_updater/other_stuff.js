@@ -12,6 +12,7 @@ function do_stuff() {
     .then(() => {
         do_other_stuff()
         event_listener_army()
+        frame_selection()
     })
 }
 function do_other_stuff() {
@@ -19,13 +20,15 @@ function do_other_stuff() {
     fun()
     selected_weapon.addEventListener('input', () => {
         fun()
+        document.querySelector('.selected_frame').innerHTML = document.querySelector('.select_frame').innerHTML
         reload_formula_stuff()
+        frame_selection()
     })
     function fun() {
         let weapon_frames = JSON.parse(localStorage.getItem('weapon_formulas'))[selected_weapon.value]
         document.getElementById('frames').textContent = ''
         Object.entries(weapon_frames).forEach(frame_id => {
-            document.getElementById('frames').innerHTML += `<option value="${frame_id[0]}">${frame_id[1].name}</option>`
+            if (frame_id[1].name) document.getElementById('frames').innerHTML += `<div class='select_frame'> <div>${frame_id[1].name}</div>   <div>${frame_id[1].category}</div>    <div>${frame_id[0]}</div> </div>`
         })
     }
 }
@@ -39,7 +42,22 @@ function event_listener_army() {
     })
 }
 
+function frame_selection() {
+    let frame_box = document.querySelector('.selected_frame')
+    let frame_list = document.querySelector('#frames')
+    frame_box.addEventListener('click', () => {
+        if (frame_list.style.display == 'none') {
+            frame_list.style.display = ''
+        } else {
+            frame_list.style.display = 'none'
+        }
+    })
+    document.querySelectorAll('.select_frame > div').forEach(e => e.addEventListener('click', event => {
+        document.querySelector('.selected_frame').innerHTML = event.currentTarget.parentElement.innerHTML
+    })) 
 
+
+}
 
 
 
@@ -48,7 +66,7 @@ function event_listener_army() {
 
 function reload_formula_stuff() {
     let selected_weapon = document.getElementById('weapons').value
-    let selected_frame  = document.getElementById('frames').value
+    let selected_frame  = document.querySelector('.selected_frame :nth-child(3)').textContent * 1
     let reload_stat = document.getElementById('reload_speed_value').value
     let wfi = JSON.parse(localStorage.getItem('weapon_formulas'))[selected_weapon][selected_frame].category
     let formula_numbers = JSON.parse(localStorage.getItem('weapon_formulas'))[selected_weapon].category[wfi].reload
@@ -59,7 +77,7 @@ function reload_formula_stuff() {
         .innerHTML = `(${formula_numbers.a} * ${reload_stat} * ${reload_stat} + ${formula_numbers.b} * ${reload_stat} + ${formula_numbers.c}) * Perk multiplayer = ${reload_in_seconds}`
     } else {
         document.getElementById('reload_formula').querySelector('.formula')
-        .textContent = 'Needs testing'
+        .textContent = `Numbers for formula missing`
     }
 
 

@@ -36,3 +36,28 @@ body{
 .formula_box{
     white-space: pre-line;
 }
+#frames{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 3px;
+    column-gap: 10px;
+    row-gap: 1px;
+    margin-inline-start: 162px;
+}
+.select_frame{
+    display: contents;
+    cursor: pointer;
+}
+.select_frame:hover div{
+    background-color: hsl(0, 0%, 30%);
+}
+.selected_frame{
+    background-color: hsl(0, 0%, 13%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 30%);
+    margin-left: 3px;
+    width: 350px;
+    justify-content: space-around;
+    display: flex;
+}
