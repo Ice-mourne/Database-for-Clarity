@@ -8,7 +8,7 @@
             "new_div_css": "_35diU"
         },
         "clarity_menu": {
-            "header_button": ".hCOGA > a:nth-child(1)",
+            "dim_header": ".hCOGA",
 
             "main_background": ".app::before, .QeSPR, .store-row.store-header, .wPm7X",
             "farming_mode_background": ".inventory-content .dWVLv",
@@ -24,7 +24,7 @@
 
 
 
-    
+
     "beta":{
         "exotic_armor":{
             "stat_window": "",
@@ -52,7 +52,7 @@
             "link": ".ItemPopupHeader-m_title-2hFLg > a"
         },
         "clarity_menu": {
-            "header_button": ".Header-m_headerLinks-hCOGA > a:nth-child(1)",
+            "dim_header": ".Header-m_headerLinks-hCOGA",
 
             "main_background": ".app::before, .Header-m_header-QeSPR, .store-row.store-header, .HeaderShadowDiv-m_cover-wPm7X",
             "farming_mode_background": ".inventory-content .DesktopStores-m_activeModeHeader-dWVLv",
