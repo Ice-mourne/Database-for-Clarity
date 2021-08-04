@@ -52,7 +52,7 @@ body{
 .select_frame:hover div{
     background-color: hsl(0, 0%, 30%);
 }
-.selected_frame{
+.selected_frame {
     background-color: hsl(0, 0%, 13%);
     color: hsl(0, 0%, 100%);
     border: 2px solid hsl(0, 0%, 30%);
@@ -60,6 +60,4 @@ body{
     width: 350px;
     justify-content: space-around;
     display: flex;
-
-    color: hsl(240, 30%, 4%)
 }

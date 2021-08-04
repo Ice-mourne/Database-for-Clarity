@@ -1,5 +1,11 @@
 {
     "app":{
+        "stuff": {
+            "header": ".QeSPR",
+            "weapon_stats": ".riz7_",
+            "all_weapon_perks": ".S7CQo",
+            "armor_description": "._RDjK"
+        },
         "exotic_armor":{
             "stat_window": "content",
             "perk_name": "_3sBrL",
@@ -26,6 +32,12 @@
 
 
     "beta":{
+        "stuff": {
+            "header": ".Header-m_header-QeSPR",
+            "weapon_stats": ".ItemStats-m_stats-riz7_",
+            "all_weapon_perks": ".ItemPerksList-m_sockets-fgnTy",
+            "armor_description": ".ArchetypeSocket-m_row-_RDjK"
+        },
         "exotic_armor":{
             "stat_window": "",
             "perk_name": "ArchetypeSocket-m_name-3sBrL",
