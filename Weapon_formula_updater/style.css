@@ -60,4 +60,6 @@ body{
     width: 350px;
     justify-content: space-around;
     display: flex;
+
+    color: hsl(240, 30%, 4%)
 }

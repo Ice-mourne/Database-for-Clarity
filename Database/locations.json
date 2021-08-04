@@ -1,0 +1,67 @@
+{
+    "app":{
+        "exotic_armor":{
+            "stat_window": "content",
+            "perk_name": "_3sBrL",
+            "description": "dd6Tm",
+            "new_div_loc": "_2WYTx",
+            "new_div_css": "_35diU"
+        },
+        "clarity_menu": {
+            "header_button": ".hCOGA > a:nth-child(1)",
+
+            "main_background": ".app::before, .QeSPR, .store-row.store-header, .wPm7X",
+            "farming_mode_background": ".inventory-content .dWVLv",
+            "organizer_background": ".ItemTable-m_table-_Qqc0>div",
+            "background_under_item": ".yEIm1",
+            "background_under_masterwork_item": ".IaYHd",
+            "item_image": ".item-img",
+            "masterwork_item_image": ".YK7XO",
+            "thumbs_up_icon": ".rating-icon.godroll"
+        }
+    },
+
+
+
+
+    
+    "beta":{
+        "exotic_armor":{
+            "stat_window": "",
+            "perk_name": "ArchetypeSocket-m_name-3sBrL",
+            "description": "ItemSocketsGeneral-m_exoticDescription-dd6Tm",
+            "loc_for_new_div": "ArchetypeSocket-m_row-2WYTx",
+            "armor_perk_name": "ArchetypeSocket-m_info-35diU"
+        },
+        "extra_weapon_stats":{
+            "stat_window": "content",
+            "wep_link": ".ItemPopupHeader-m_title-2hFLg > a",
+            "wep_stats": "ItemStats-m_stats-3ywbI",
+            "wep_stat_name_class": "ItemStat-m_statName-1XPu7",
+            "wep_stat_value_class": "ItemStat-m_value-3utrN"
+        },
+        "weapon_perks": {
+            
+        },
+        "d2_gunsmith": {
+            "stat_window": "content",
+            "location": ".ActionButton-m_actionButton-V9iV5",
+            "class": "ActionButton-m_actionButton-V9iV5",
+            "button_text_hide": "DesktopItemActions-m_collapsed-doC6W",
+            "click_event": "DesktopItemActions-m_collapseButton-2xfla",
+            "link": ".ItemPopupHeader-m_title-2hFLg > a"
+        },
+        "clarity_menu": {
+            "header_button": ".Header-m_headerLinks-hCOGA > a:nth-child(1)",
+
+            "main_background": ".app::before, .Header-m_header-QeSPR, .store-row.store-header, .HeaderShadowDiv-m_cover-wPm7X",
+            "farming_mode_background": ".inventory-content .DesktopStores-m_activeModeHeader-dWVLv",
+            "organizer_background": ".ItemTable-m_table-_Qqc0>div",
+            "background_under_item": ".BadgeInfo-m_badge-yEIm1",
+            "background_under_masterwork_item": ".BadgeInfo-m_masterwork-IaYHd",
+            "item_image": ".item-img",
+            "masterwork_item_image": ".ItemIcon-m_masterwork-YK7XO",
+            "thumbs_up_icon": ".rating-icon.godroll"
+        }
+    }
+}
