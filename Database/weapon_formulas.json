@@ -14,14 +14,20 @@
 
         "category": {
             "default": {
-                "range": {"zrm": 1.575, "zoom_tier": 16, "vpp": 0.107, "base_range": 10.05},
-                "reload": {"a": 0.000105640666666667, "b": -0.0290040666666667, "c": 3.08620666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.575,              "zoom_tier": 16,          "vpp": 0.107,          "base_range": 10.05,     "max_base_range": 40.8, "scale": false},
+                "reload":   {"a": 0.000105640666666667, "b": -0.0290040666666667, "c": 3.08620666666667, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             },
             "Cerberus":{
-                "range": null,
-                "reload": {"a": 0.000105640666666667, "b": -0.0290040666666667, "c": 3.08620666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.000105640666666667, "b": -0.0290040666666667, "c": 3.08620666666667, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             }
         }
     },
@@ -36,9 +42,12 @@
 
         "category": {
             "default": {
-                "range": null,
-                "reload": {"a": 0.0000431823205, "b": -0.00672164723071095, "c": 1.10206059105208},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.0000431823205, "b": -0.00672164723071095, "c": 1.10206059105208, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,      "number": 35.51692},
+                    "stow": {"vpp": -0.17034,      "number": 30.60252}
+                }
             }
         }
     },
@@ -57,9 +66,12 @@
 
         "category": {
             "default": {
-                "range": {"zrm": 1.3, "zoom_tier": 15, "vpp": 0.036, "base_range": 10.2},
-                "reload": {"a": 0.0000759606666666667, "b": -0.0235252333333333, "c": 3.05622666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.3,                 "zoom_tier": 15,          "vpp": 0.036,          "base_range": 10.2,      "max_base_range": 15.1, "scale": true},
+                "reload":   {"a": 0.0000759606666666667, "b": -0.0235252333333333, "c": 3.05622666666667, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             }
         }
     },
@@ -79,14 +91,20 @@
 
         "category": {
             "special": {
-                "range": null,
-                "reload": {"a": 0.0000894073333333333, "b": -0.0258361333333333, "c": 3.49046666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.0000894073333333333, "b": -0.0258361333333333, "c": 3.49046666666667, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             },
             "heavy": {
-                "range": null,
-                "reload": {"a": 0.0000932386666666667, "b": -0.0295255666666667, "c": 4.41473333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.0000932386666666667, "b": -0.0295255666666667, "c": 4.41473333333333, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             }
         }
     },
@@ -110,19 +128,28 @@
 
         "category": {
             "default": {
-                "range": {"zrm": 1.375, "tier": 14, "vpp": 0.096, "base": 16},
-                "reload": {"a": 0.000159282666666667, "b": -0.043624, "c": 4.61606666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.375,              "tier": 14,         "vpp": 0.096,           "base": 16,              "max_base_range": 29.6, "scale": true},
+                "reload":   {"a": 0.000159282666666667, "b": -0.043624,     "c": 4.61606666666667,  "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             },
             "120 RPM": {
-                "range": {"zrm": 1.375, "tier": 14, "vpp": 0.1, "base": 19},
-                "reload": {"a": 0.000159282666666667, "b": -0.043624, "c": 4.61606666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.375,              "tier": 14,         "vpp": 0.1,             "base": 19,              "max_base_range": 34.1,  "scale": true},
+                "reload":   {"a": 0.000159282666666667, "b": -0.043624,     "c": 4.61606666666667,  "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             },
             "Eriana": {
-                "range": null,
-                "reload": {"a": 0.000159282666666667, "b": -0.043624, "c": 4.61606666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.000159282666666667, "b": -0.043624,     "c": 4.61606666666667, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             }
         }
     },
@@ -134,9 +161,12 @@
 
         "category": {
             "default": {
-                "range": null,
-                "reload": {"a": 0.0000726496666666667, "b": -0.0236623666666667, "c": 3.10142333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.0000726496666666667, "b": -0.0236623666666667, "c": 3.10142333333, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             }
         }
     },
@@ -150,9 +180,12 @@
 
         "category": {
             "default": {
-                "range": null,
-                "reload": {"a": 0.000111771666666667,  "b": -0.0362153333333333, "c": 6.47296666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.000111771666666667,  "b": -0.0362153333333333, "c": 6.47296666666667, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             }
         }
     },
@@ -170,9 +203,12 @@
 
         "category": {
             "default": {
-                "range": {"zrm": 1.675, "zoom_tier": 17, "vpp": 0.08, "base_range": 15.4},
-                "reload": {"a": 0.000114346666666667, "b": -0.0308288666666667, "c": 3.22312666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.675,              "zoom_tier": 17,          "vpp": 0.08,           "base_range": 15.4,      "max_base_range": 40.4, "scale": false},
+                "reload":   {"a": 0.000114346666666667, "b": -0.0308288666666667, "c": 3.22312666666667, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             }
         }
     },
@@ -190,9 +226,12 @@
 
         "category": {
             "default": {
-                "range": null,
-                "reload": {"a": 0.000128344666666667, "b": -0.0305745666666667, "c": 4.38473333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.000128344666666667, "b": -0.0305745666666667, "c": 4.38473333333333, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             }
         }
     },
@@ -211,14 +250,20 @@
 
         "category": {
             "default": {
-                "range": {"zrm": 1.975, "zoom_tier": 20, "vpp": 0.169, "base_range": 29.2},
-                "reload": {"a": 0.000127055666666667,  "b": -0.0333065333333333, "c": 3.43833333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.975,              "zoom_tier": 20,          "vpp": 0.169,          "base_range": 29.2,      "max_base_range": 60.8, "scale": false},
+                "reload":   {"a": 0.000127055666666667, "b": -0.0333065333333333, "c": 3.43833333333333, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             },
             "DMT": {
-                "range": {"zrm": 1.975, "zoom_tier": 20, "vpp": 0.169, "base_range": 29.2},
-                "reload": null,
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.975,              "zoom_tier": 20,          "vpp": 0.169,          "base_range": 29.2,      "max_base_range": 60.8, "scale": false},
+                "reload":   null,
+                "handling": {
+                    "ready":{"vpp": -0.22154,           "number": 35.51692},
+                    "stow": {"vpp": -0.17034,           "number": 30.60252}
+                }
             }
         }
     },
@@ -241,29 +286,44 @@
 
         "category": {
             "default": {
-                "range": {"zrm": 1, "zoom_tier": 12, "vpp": 0.08, "base_range": 4},
-                "reload": {"a": 0.0000790693333333333, "b": -0.0173282, "c": 1.41598333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1,                   "zoom_tier": 12,   "vpp": 0.08,           "base_range": 4,        "max_base_range": 69, "scale": false},
+                "reload":   {"a": 0.0000790693333333333, "b": -0.0173282,   "c": 1.41598333333333, "mag_multiplayer": true},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             },
             "slug": {
-                "range": {"zrm": 1, "zoom_tier": 12, "vpp": 0.08, "base_range": 4},
-                "reload": {"a": 0.0000790693333333333, "b": -0.0173282, "c": 1.41598333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1,                   "zoom_tier": 12,   "vpp": 0.08,           "base_range": 4,        "max_base_range": 69, "scale": false},
+                "reload":   {"a": 0.0000790693333333333, "b": -0.0173282,   "c": 1.41598333333333, "mag_multiplayer": true},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             },
             "LoW": {
-                "range": null,
-                "reload": {"a": 0.0000790693333333333, "b": -0.0173282, "c": 1.41598333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.0000790693333333333, "b": -0.0173282,   "c": 1.41598333333333, "mag_multiplayer": true},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             },
             "Duality": {
-                "range": null,
-                "reload": {"a": 0.0000790693333333333, "b": -0.0173282, "c": 1.41598333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.0000790693333333333, "b": -0.0173282,   "c": 1.41598333333333, "mag_multiplayer": true},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             },
             "Tractor": {
-                "range": null,
-                "reload": {"a": 0.0000790693333333333, "b": -0.0173282, "c": 1.41598333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.0000790693333333333, "b": -0.0173282,   "c": 1.41598333333333, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             }
         }
     },
@@ -283,9 +343,12 @@
 
         "category": {
             "default": {
-                "range": {"zrm": 1.175, "zoom_tier": 12, "vpp": 0.034, "base_range": 11.6},
-                "reload": {"a": 0.0000294211666666667, "b": -0.0144276333333333, "c": 2.28800666666667},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.175,               "zoom_tier": 12,          "vpp": 0.034,          "base_range": 11.6,      "max_base_range": 22.5, "scale": true},
+                "reload":   {"a": 0.0000294211666666667, "b": -0.0144276333333333, "c": 2.28800666666667, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             }
         }
     },
@@ -301,9 +364,12 @@
 
         "category": {
             "default": {
-                "range": null,
-                "reload": {"a": 0.0000832713333333333, "b": -0.0273923666666667, "c": 4.104},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   {"a": 0.0000832713333333333, "b": -0.0273923666666667, "c": 4.104, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,            "number": 35.51692},
+                    "stow": {"vpp": -0.17034,            "number": 30.60252}
+                }
             }
         }
     },
@@ -320,9 +386,12 @@
 
         "category": {
             "default": {
-                "range": {"zrm": 1.275, "zoom_tier": 13, "vpp": 0.126, "base_range": 4.8},
-                "reload": {"a": 0.000075141, "b": -0.0227633333333333, "c": 2.84781333333333},
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    {"zrm": 1.275,     "zoom_tier": 13,          "vpp": 0.126,          "base_range": 4.8,       "max_base_range": 24.5, "scale": false},
+                "reload":   {"a": 0.000075141, "b": -0.0227633333333333, "c": 2.84781333333333, "mag_multiplayer": false},
+                "handling": {
+                    "ready":{"vpp": -0.22154,  "number": 35.51692},
+                    "stow": {"vpp": -0.17034,  "number": 30.60252}
+                }
             }
         }
     },
@@ -338,9 +407,12 @@
 
         "category": {
             "default": {
-                "range": null,
-                "reload": null,
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   null,
+                "handling": {
+                    "ready":{"vpp": -0.22154, "number": 35.51692},
+                    "stow": {"vpp": -0.17034, "number": 30.60252}
+                }
             }
         }
     },
@@ -353,9 +425,12 @@
 
         "category": {
             "default": {
-                "range": null,
-                "reload": null,
-                "handling": {"ready_vpp": -0.22154, "ready_number": 35.51692, "stow_vpp": -0.17034, "stow_number": 30.60252}
+                "range":    null,
+                "reload":   null,
+                "handling": {
+                    "ready":{"vpp": -0.22154, "number": 35.51692},
+                    "stow": {"vpp": -0.17034, "number": 30.60252}
+                }
             }
         }
     }

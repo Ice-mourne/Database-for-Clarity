@@ -1,0 +1,806 @@
+{
+    "----------1281243303": {
+       "name": "Adaptive Ordnance",
+       "text":"empty"
+    },
+    "----------11612903": {
+       "name": "Adrenaline Junkie",
+       "text":"empty"
+    },
+    "3722653512": {
+       "name": "Air Assault",
+       "text":"<div class='new_pd'>Gain 20 handling while airborne.</div>"
+    },
+    "1431678320": {
+       "name": "Alloy Magazine",
+       "text": "0.85x Reload scale then magazine is empty\nrelo_t_0 reload time reduced by relo_r_0",
+ 
+       "reload_stat":  [0   ],
+       "reload_multi": [0.85]
+    },
+    "2010801679": {
+       "name": "Ambitious Assassin",
+       "text":"<div class='new_pd'>Increases magazine capacity by 10% per kill, maximizes at 50%.</div>"
+    },
+    "3414324643": {
+       "name": "Archer's Gambit",
+       "text":"<div class='new_pd'>Gain 20 handling while airborne.</div>"
+    },
+    "201365942": {
+       "name": "Archer's Tempo",
+       "text":"<div class='new_pd'>On Precision Hit:<br>Sets drawtime to 440ms for 3 seconds.</div>"
+    },
+    "1968497646": {
+       "name": "Armor-Piercing Rounds",
+       "text":"<div class='new_pd'>Rounds cause 5% extra damage to combatants shields and overpenetrate targets.</div>"
+    },
+    "----------1185273366": {
+       "name": "Armor of the Colossus",
+       "text":"empty"
+    },
+    "354401740": {
+       "name": "Assassin's Blade",
+       "text":"<div class='new_pd'>Kills increase Damage by 15%<br>And Sprint Speed by 13% for 5s</div>"
+    },
+    "3300816228": {
+       "name": "Auto-Loading Holster",
+       "text":"<div class='new_pd'>The holstered weapon is automatically reloaded<br>after 3 seconds.</div>"
+    },
+    "1600092898": {
+       "name": "Backup Plan",
+       "text":"<div class='new_pd'>Sets impact to 55 Rapid-Fire Fusion Rifle archetype.<br>Sets charge time to 460ms.<br>100 Handling when readied for 4 seconds.</div>"
+    },
+    "----------3196242660": {
+       "name": "Base Frame",
+       "text":"empty"
+    },
+    "----------743139589": {
+       "name": "Blessing of the Sky",
+       "text":"empty"
+    },
+    "----------3351002503": {
+       "name": "Bottomless Appetite",
+       "text":"empty"
+    },
+    "4252909580": {
+       "name": "Bottomless Grief",
+       "text":"<div class='new_pd'>If Last Guardian Standing:<br>Kills reload Magazine.</div>"
+    },
+    "2551157718": {
+       "name": "Box Breathing",
+       "text":"<style> .Celerity tr:nth-child(even) { background:#222; } .Celerity td, .Celerity th{ padding-top: 1px; padding-bottom: 4px; padding-right: 7px; padding-left: 7px; } </style> <div class='new_pd'>After scoping in for 1.5s without firing:</div> <table class='new_pd Celerity' style='border-collapse:collapse;'> <tbody> <tr> <th></th> <th>Precision <br>Damage</th> <th>Accuracy</th> <th>Range</th> </tr> <tr> <td>Snipers <br>Aggressive</td> <td>37%</td> <td>X</td> <td>Y</td> </tr> <tr> <td>Snipers <br>Rapid-Fire, <br>Adaptive</td> <td>31%</td> <td>X</td> <td>Y</td> </tr> <tr> <td>Linear Fusion</td> <td>33%</td> <td>X</td> <td>Y</td> </tr> <tr> <td>Scout Rifles</td> <td>66%</td> <td>X</td> <td>Y</td> </tr> </tbody> </table>"
+    },
+    "----------745965939": {
+       "name": "Break the Bank",
+       "text":"empty"
+    },
+    "4190643473": {
+       "name": "Breakthrough",
+       "text":"<div class='new_pd'>Shots staggers Unstoppable Champions</div>"
+    },
+    "----------2287699930": {
+       "name": "Broadhead",
+       "text":"empty"
+    },
+    "----------407549716": {
+       "name": "Broadside",
+       "text":"empty"
+    },
+    "----------1853177948": {
+       "name": "Business Time",
+       "text":"empty"
+    },
+    "----------3298446480": {
+       "name": "Causality Arrows",
+       "text":"empty"
+    },
+    "1264398905": {
+       "name": "Celerity",
+       "text":"<div class='new_pd'>If Last Guardian Standing: Decrease flinch received<br>Increased accuracy, Stronger scope highlight<br>Enables radar while ADS</div> <table class='new_pd' style='border-spacing: 7px 0px; margin-top: -5px;'> <tbody> <tr> <th></th> <th></th> <th colspan='3'>Reload</th> </tr> <tr> <th>Handling</th> <th>Aim Assist</th> <th>Stat</th> <th>Time</th> <th>Reduction</th> </tr> <tr> <td>100</td> <td>100</td> <td>100</td> <td>reload_time_1</td> <td>reload_stat_2</td> </tr> </tbody> </table> <div class='new_pd'>Passive:</div> <table class='new_pd' style='border-spacing: 7px 0px; margin-top: -7px;'> <tbody> <tr> <td></td> <th></th> <th colspan='3'>Reload</th> </tr> <tr> <th>Handling</th> <th>Stat</th> <th>Time</th> <th>Reduction</th> </tr> <tr> <td>18</td> <td>18</td> <td>reload_time_3</td> <td>reload_stat_4</td> </tr> </tbody> </table>",
+       "reload_stat": [100, 18],
+       "reload_multi":[1,   1 ]
+    },
+    "2396489472":{
+       "name": "Chain Reaction",
+       "text":"<div class='new_pd'>Kills explode enemies, potentially chaining.</div>"
+    },
+    "2284787283":{
+       "name": "Clown Cartridge",
+       "text":"<div class='new_pd'>Randomly increases magazine between<br>10% to 50% on Reload. Always rounds up.</div>"
+    },
+    "1275731761":{
+       "name": "Cluster Bomb",
+       "text":"<div class='new_pd'>Rockets generate 8 additional Cluster Bombs on detonation.<br>Each bomb deals about 3% additional damage.</div>"
+    },
+    "----------1799762209":{
+       "name": "Cornered",
+       "text": ""
+    },
+    "----------320534106":{
+       "name": "Cosmology",
+       "text": ""
+    },
+    "3016987351":{
+       "name": "Counterattack",
+       "text":"<div class='new_pd'>Blocking an attack immediately after Guarding increases Damage by 50% for 2s.</div>"
+    },
+    "2383960413":{
+       "name": "Cruel Remedy",
+       "text":" <div class='new_pd'>On Kill: Heals 35 HP and begins Health Regeneration<br>Refills magazine on Precision Kill.</div>"
+    },
+    "----------960810156":{
+       "name": "Danger Zone",
+       "text": ""
+    },
+    "----------3333994164":{
+       "name": "Dark Descent",
+       "text": ""
+    },
+    "1687327062":{
+       "name": "Death at First Glance",
+       "text":"<div class='new_pd'>First shot while ADS deals 33% increased Damage.<br>Bonus is Preserved:<br>On Precision / Elemental Shields Hits.<br>If lost, buff is regained after 3 seconds of not firing.</div>"
+    },
+    "3523296417":{
+       "name": "Demolitionist",
+       "text":"<div class='new_pd'>Kills restore Grenade Energy.</div> <div class='new_pd'>Primary and Heavy 10%<br>Energy 20%</div> <div class='new_pd'></div> <div class='new_pd'>Using Grenade Ability:<br>Reloads weapon. 3 Second Cooldown.</div>"
+    },
+    "3047969693":{
+       "name": "Desperado",
+       "text":"<div class='new_pd'>Reloading within 6 seconds after a Precision Kill:<br>increases your Rate of Fire to 600RPM for 7 seconds. Reduces damage against Combatants by 20%<br>Can be refreshed.</div>"
+    },
+    "1683379515":{
+       "name": "Disruption Break",
+       "text":"<div class='new_pd'>On Elemental, Barrier or Guardian shield break:<br>Applies a debuff that grants:<br>50% increased Kinetic Damage for 5.5 seconds.</div>"
+    },
+    "----------3871884143":{
+       "name": "Disruption Break",
+       "text": "",
+       "notes": "exotic weapon Arbalest barrel"
+    },
+    "2848615171":{
+       "name": "Dragonfly",
+       "text":"<div class='new_pd'>Precision Kills explode the target<br>Dealing the Weapon's Elemental Damage over<br>3 meter radius.<br>Damage is not increased by Weapon Perks.</div> <div class='new_pd'>Dragonfly Spec grants 50% more damage and radius.</div>"
+    },
+    "----------25606670":{
+       "name": "Dual Loader",
+       "text": ""
+    },
+    "----------4012962526":{
+       "name": "Dual Speed Receiver",
+       "text": ""
+    },
+    "----------127335543":{
+       "name": "Dynamic Charge",
+       "text": ""
+    },
+    "1359896290":{
+       "name": "Dynamic Sway Reduction",
+       "text":"<div class='new_pd'>Greatly reduces inaccuracy after firing for 1 second.<br>Adds 9 Stability over time.</div>"
+    },
+    "----------3511092054":{
+       "name": "Elemental Capacitor",
+       "text": ""
+    },
+    "----------1685431615":{
+       "name": "En Garde",
+       "text": ""
+    },
+    "----------2030760728":{
+       "name": "Energy Transfer",
+       "text": ""
+    },
+    "----------798520364":{
+       "name": "Evolution",
+       "text": ""
+    },
+    "3038247973":{
+       "name": "Explosive Payload",
+       "text":"<div class='new_pd'>Splits 50% of damage<br>Into explosive damage with no fall off.</div> <div class='new_pd'>Increases Damage.<br>PvE 11% Precision 15% Body.<br>PvP Total damage remains (almost) the same.</div>"
+    },
+    "3365897133":{
+       "name": "Explosive Head",
+       "text":"<div class='new_pd'>Splits 55% of damage<br>Into explosive damage with no fall off.<br>Detonates after 0.6 seconds.</div> <div class='new_pd'>Increases Damage.<br>PvE 12% Precision 16% Body.<br>PvP Total damage remains (almost) the same.</div>"
+    },
+    "----------3194351027":{
+       "name": "Explosive Light",
+       "text": ""
+    },
+    "----------699525795":{
+       "name": "Eye of the Storm",
+       "text": ""
+    },
+    "2779035018":{
+       "name": "Feeding Frenzy",
+       "text":"<div class='new_pd'>Kills increase Reload Speed for 3.5 seconds. Refreshes on kill.</div> <style> .feeding_frenzy tr:nth-child(even) {background:#222;} .feeding_frenzy td, .feeding_frenzy th{padding-top: 3px;padding-bottom: 3px;padding-right: 7px;padding-left: 7px;} </style> <table class='new_pd feeding_frenzy' style='border-collapse:collapse; width: 100%;'> <tbody> <tr> <th></th> <th>Stat</th> <th>Multiplier</th> <th>Time</th> <th>Reduction</th> </tr> <tr> <td>1x</td> <td>10</td> <td>-</td> <td>relo_t_0</td> <td>relo_r_0</td> </tr> <tr> <td>2x</td> <td>45</td> <td>0.9x</td> <td>relo_t_1</td> <td>relo_r_1</td> </tr> <tr> <td>3x</td> <td>55</td> <td>0.88x</td> <td>relo_t_2</td> <td>relo_r_2</td> </tr> <tr> <td>4x</td> <td>70</td> <td>0.85x</td> <td>relo_t_3</td> <td>relo_r_3</td> </tr> <tr> <td>5x</td> <td>100</td> <td>0.8x</td> <td>relo_t_4</td> <td>relo_r_4</td> </tr> </tbody> </table>",
+       "reload_stat": [10, 45,  55,   70,   100],
+       "reload_multi":[1,  0.9, 0.88, 0.85, 0.8]
+    },
+    "----------2869569095":{
+       "name": "Field Prep",
+       "text": ""
+    },
+    "----------3824105627":{
+       "name": "Firefly",
+       "text": ""
+    },
+    "----------1561789734":{
+       "name": "Firefly",
+       "text": "",
+       "notes": "exotic weapon Ace of spades perk"
+    },
+    "1771339417":{
+       "name": "Firing Line",
+       "text":"<div class='new_pd'>Being near 2+ Guardians / Friendly AI:<br>Increases Precision Damage:<br>After scoping in for 1.5s without firing:</div>  <style> tr:nth-child(even) {background:#222;} td, th{padding-top: 1px; padding-bottom: 5px; padding-right: 7px; padding-left: 7px;}</style> <table class='new_pd' style='border-collapse:collapse;'> <tbody><tr> <th>Weapon</th> <th>Damage</th> </tr> <tr> <td>Linear Fusion</td> <td>25%</td> </tr> <tr> <td>Sniper</td> <td>25%</td> </tr> <tr> <td>Machine Gun</td> <td>20%</td> </tr> </tbody></table>"
+    },
+    "280464955":{
+       "name": "Firmly Planted",
+       "text":"<div class='new_pd'>If crouched:<br>Recoil becomes (almost) entirely vertical<br>Heavily increases accuracy<br>Grants 35 Handling and 35 Stability.</div>"
+    },
+    "----------3189251502":{
+       "name": "Fistfuls of Bullets",
+       "text": ""
+    },
+    "----------3470828242":{
+       "name": "Flame Refraction",
+       "text": ""
+    },
+    "----------2244851822":{
+       "name": "Flash Counter",
+       "text": ""
+    },
+    "----------1549056416":{
+       "name": "Flash Freeze",
+       "text": ""
+    },
+    "----------1367902648":{
+       "name": "Flourish",
+       "text": ""
+    },
+    "----------176919422":{
+       "name": "For the Empire",
+       "text": ""
+    },
+    "1354429876":{
+       "name": "Fourth Time's the Charm",
+       "text":"<div class='new_pd'>Landing 4 Precision Hits up to 2.5s between shots<br>Generate 2 bullets to the magazine.</div>"
+    },
+    "----------4104185692":{
+       "name": "Frenzy",
+       "text": ""
+    },
+    "2117683199":{
+       "name": "Full Auto Trigger System",
+       "text":"<div class='new_pd'>Makes Weapon fire at Full Auto.<br>10% Faster Fire Rate.</div>",
+       "notes": "shotgun specific mod version"
+    },
+    "4267945040":{
+       "name": "Full Auto Trigger System",
+       "text":"<div class='new_pd'>Makes Weapon fire at Full Auto.</div>"
+    },
+    "2888557110":{
+       "name": "Full Court",
+       "text":"<div class='new_pd'>Increases Explosion Damage<br>Based on how far the grenade traveled</div> <div class='new_pd'>Begins at 10m, and ends at 50m.<br>0.625% for every meter traveled up to<br>25% more Damage at 50m</div>"
+    },
+    "3096702027":{
+       "name": "Genesis",
+       "text":"<div class='new_pd'>On Elemental or Barrier Champion's Shield break:<br>Reloads magazine.<br>Energy Weapons generate:<br>1 ammo per hit against Matching Elemental Shields</div>"
+    },
+    "----------24925370":{
+       "name": "Gift of the Traveler",
+       "text": ""
+    },
+    "1631667848":{
+       "name": "Grave Robber",
+       "text":"<div class='new_pd'>On Melee Kill:<br>Primary Weapons:<br>Generate ammo to magazine.</div> <div class='new_pd'>Special and Power Weapons:<br>Get ammo to magazine from reserves.</div>"
+    },
+    "----------2911329003":{
+       "name": "Grenades and Horseshoes",
+       "text": ""
+    },
+    "----------2041229079":{
+       "name": "Hailstorm",
+       "text": ""
+    },
+    "----------3970637031":{
+       "name": "Harbinger's Pulse",
+       "text": ""
+    },
+    "460017080":{
+       "name": "Headseeker",
+       "text":"<div class='new_pd'>Headshots mid burst after hitting at least one bodyshot:<br>Receive 8% increased Precision Damage</div>"
+    },
+    "----------3772485195":{
+       "name": "Heat Sink",
+       "text": ""
+    },
+    "----------1570042021":{
+       "name": "Heating Up",
+       "text": ""
+    },
+    "----------1153089512":{
+       "name": "High Noon",
+       "text": ""
+    },
+    "2213355989":{
+       "name": "High-Impact Reserves",
+       "text":"<div class='new_pd'>Gradual Damage increase<br>Starting at 50% of magazine left</div> <table class='new_pd' style='border-spacing: 7px 2px;'> <tbody><tr> <th></th> <th>From</th> <th>To</th> </tr> <tr> <td>PvE</td> <td>12%</td> <td>26%</td> </tr> <tr> <td>PvP</td> <td>4%</td> <td>6%</td> </tr> </tbody></table>"
+    },
+    "1866048759":{
+       "name": "Hip-Fire Grip",
+       "text":"<div class='new_pd'>If hipfiring:</div> <table class='new_pd' style='border-spacing: 7px 0px;'> <tbody> <tr> <td>1.2x</td> <td>Aim Assist Falloff</td> </tr> <tr> <td>15</td> <td>Aim Assist</td> </tr> <tr> <td>+1.7</td> <td>degrees precision angle threshold</td> </tr> <tr> <td>30%</td> <td>higher accuracy</td> </tr> <tr> <td>30</td> <td>Stability</td> </tr> </tbody> </table>"
+    },
+    "----------2333607307":{
+       "name": "Impetus",
+       "text": ""
+    },
+    "3796465595":{
+       "name": "Impact Casing",
+       "text":"<div class='new_pd'>10% Increased Impact Damage</div>"
+    },
+    "----------951095735":{
+       "name": "Impulse Amplifier",
+       "text": ""
+    },
+    "----------501717180":{
+       "name": "Ionic Return",
+       "text": ""
+    },
+    "----------4152709778":{
+       "name": "Iron Gaze",
+       "text": ""
+    },
+    "----------11551321":{
+       "name": "Iron Grip",
+       "text": ""
+    },
+    "----------591790007":{
+       "name": "Iron Reach",
+       "text": ""
+    },
+    "1754714824":{
+       "name": "Kickstart",
+       "text":"<div class='new_pd'>20% increased Damage<br>100ms faster Charge Rate<br>During a slide, after sprinting for 1.5 second.</div>"
+    },
+    "1015611457":{
+       "name": "Kill Clip",
+       "text":"<div class='new_pd'>Reloading after a Kill increases Damage by:<br>33% Precision<br> 30% Body</div>"
+    },
+    "----------2782457288":{
+       "name": "Killing Tally",
+       "text": ""
+    },
+    "2450788523":{
+       "name": "Killing Wind",
+       "text":"<div class='new_pd'>On Kill:<br>20 Range (range_0), 50 Mobility, 40 Handling.<br>Lasts 6 seconds and is refreshed on kill.</div>",
+       "zoom_mult": [1 ],
+       "zoom":      [0 ],
+       "range_stat":[20]
+    },
+    "----------4146729347":{
+       "name": "Last Stand",
+       "text": ""
+    },
+    "3927722942":{
+       "name": "Lasting Impression",
+       "text":"<div class='new_pd'>Rockets attach on impact<br>And detonate after 3 seconds<br>Dealing 20% increased Explosive Damage.</div>"
+    },
+    "1556840489":{
+       "name": "Lead from Gold",
+       "text":"<div class='new_pd'>On Power Ammo Pickup:<br>Grants the equivalent of 1 Special Ammo Pickup.</div>"
+    },
+    "----------2399646028":{
+       "name": "Leviathan's Sigh",
+       "text": ""
+    },
+    "----------200829441":{
+       "name": "Lightning Rod",
+       "text": ""
+    },
+    "----------1419069769":{
+       "name": "Lightning Rounds",
+       "text": ""
+    },
+    "----------1385518514":{
+       "name": "Liquid Cooling",
+       "text": ""
+    },
+    "----------1650852150":{
+       "name": "Long March",
+       "text": ""
+    },
+    "----------2482418662":{
+       "name": "Longest Winter",
+       "text": ""
+    },
+    "----------2720533289":{
+       "name": "Magnificent Howl",
+       "text": ""
+    },
+    "2814973067":{
+       "name": "Markov Chain",
+       "text":"<div class='new_pd'>Weapon and Melee Kills increase Damage for 4.5s:</div> <style> .Markov_Chain tr:nth-child(even) {background:#222;} .Markov_Chain td, .Markov_Chain th{padding-top: 2px; padding-bottom: 3px; padding-right: 7px; padding-left: 7px;}</style> <table class='new_pd Markov_Chain' style='border-collapse:collapse;'> <tbody> <tr> <th></th> <th>1x</th> <th>2x</th> <th>3x</th> <th>4x</th> <th>5x</th> </tr> <tr> <th>PvE</th> <td>13%</td> <td>26%</td> <td>39%</td> <td>52%</td> <td>65%</td> </tr> <tr> <th>PvP</th> <td>5%</td> <td>12%</td> <td>19%</td> <td>26%</td> <td>30%</td> </tr> </tbody> </table> <div class='new_pd'>Melee Kills instantly max out stacks</div>"
+    },
+    "----------3081867624":{
+       "name": "Master of Arms",
+       "text": ""
+    },
+    "----------1178686995":{
+       "name": "Mechanized Autoloader",
+       "text": ""
+    },
+    "----------1941225610":{
+       "name": "Meganeura",
+       "text": ""
+    },
+    "----------3713839994":{
+       "name": "Micro-Missile",
+       "text": ""
+    },
+    "----------3100590152":{
+       "name": "MIDA Radar",
+       "text": ""
+    },
+    "----------2179934441":{
+       "name": "MIDA Synergy",
+       "text": ""
+    },
+    "----------1633794450":{
+       "name": "Mobility Enhancement Mod",
+       "text": ""
+    },
+    "588594999":{
+       "name": "Moving Target",
+       "text":"<div class='new_pd'>Passively grants 10 Aim Assist.<br>3% Reduced Movement Speed Penalty<br>From ADS and Strafing</div>"
+    },
+    "3513791699":{
+       "name": "Mulligan",
+       "text":"<div class='new_pd'>20% chance on miss to generate 1 bullet to magazine.</div>"
+    },
+    "----------3337692349":{
+       "name": "Mulligan",
+       "text": "",
+       "notes": "exotic weapon Whisperer of the worms perk"
+    },
+    "2458213969":{
+       "name": "Multikill Clip",
+       "text":"<div class='new_pd'>Reloading after Kills increases Damage for 5s</div> <table class='new_pd' style='border-spacing: 7px 2px;'> <tbody><tr> <th>1x</th> <th>2x</th> <th>3x</th> </tr> <tr> <td>17%</td> <td>33%</td> <td>50%</td> </tr> </tbody></table>"
+    },
+    "2866798147":{
+       "name": "No Distractions",
+       "text":"<div class='new_pd'>After being scoped for 1 second without firing:<br>Strongly reduced flinch.</div>"
+    },
+    "----------3937312904":{
+       "name": "On Black Wings",
+       "text": ""
+    },
+    "----------2129059110":{
+       "name": "Once More",
+       "text": ""
+    },
+    "4049631843":{
+       "name": "One for All",
+       "text":"<div class='new_pd'>Hitting 3 Separate Combatants within 3s of each other increases Damage by 35% for 10s</div>"
+    },
+    "2679249093":{
+       "name": "One-Two Punch",
+       "text":"<div class='new_pd'>Hitting an enemy with every pellet of a shot increases Melee Damage<br>200% to Minors &amp; Elites<br>350% to Minibosses and Bosses<br>Bonus is reduced to 80% with Liar's Handshake</div>"
+    },
+    "----------95528736":{
+       "name": "Onslaught",
+       "text": ""
+    },
+    "47981717":{
+       "name": "Opening Shot",
+       "text":"<div class='new_pd'>5-12% Increased Fall off Distance<br>25% higher Accuracy<br>On the first shot.<br>3.1 second cooldown after not firing.</div>"
+    },
+    "1774574192":{
+       "name": "Osmosis",
+       "text":"<div class='new_pd'>Using your Grenade Ability changes the weapon damage type to match selected subclass until stow.</div>"
+    },
+    "1168162263":{
+       "name": "Outlaw",
+       "text":"<div class='new_pd'>On Precision Kill:<br>63 Reload Speed with 0.9x Multiplier<br>relo_t_0 reload time reduced by relo_r_0<br>for 6 seconds.</div>",
+       "reload_stat": [63 ],
+       "reload_multi":[0.9]
+    },
+    "3643424744":{
+       "name": "Overflow",
+       "text":"<div class='new_pd'>Refills magazine to double capacity on<br>Special / Power Ammo pickup.</div>"
+    },
+    "----------3242533954":{
+       "name": "Parasitism",
+       "text": ""
+    },
+    "----------1185480639":{
+       "name": "Penance",
+       "text": ""
+    },
+    "----------3530997750":{
+       "name": "Plasteel Reinforcement Mod",
+       "text": ""
+    },
+    "777637181":{
+       "name": "Play with Your Prey",
+       "text": ""
+    },
+    "972757866":{
+       "name": "Pulse Monitor",
+       "text":"<div class='new_pd'>On Critical Health:<br>Reloads weapon (Held or Stowed)<br>45 Handling<br>5% Faster Swap Speed.</div>"
+    },
+    "----------1059301209":{
+       "name": "Pyrogenesis",
+       "text": ""
+    },
+    "----------706527188":{
+       "name": "Quickdraw",
+       "text":"<div class='new_pd'>Grants 100 Handling for 1s, or until ADS</div>"
+    },
+    "3425386926":{
+       "name": "Rampage",
+       "text":"<div class='new_pd'>Kills increase Damage for 3.5s</div> <table class='new_pd' style='border-spacing: 7px 2px; margin-top: 0px;'> <tbody> <tr> <th>1x</th> <th>2x</th> <th>3x</th> </tr> <tr> <td>10%</td> <td>21%</td> <td>33%</td> </tr> <tr> </tr> </tbody> </table> <div class='new_pd' style='margin-top: 0px;'>Rampage Spec Mod increases Duration to 4.5s</div>"
+    },
+    "----------3551326236":{
+       "name": "Rampage",
+       "text":"",
+       "notes": "exotic weapon The Huckleberry perk"
+    },
+    "2846385770":{
+       "name": "Rangefinder",
+       "text":"While Aiming down sights:<br>+10% zoom<br>+#RG_0 range<br>+5% Projectile Speed",
+       "text_fallback":"While Aiming down sights:<br>+10% zoom<br>+5% Projectile Speed",
+       "range": {
+          "normal": {
+             "loop": 1,
+             "multiplayer": 1.1
+          }
+       }
+    },
+    "247725512":{
+       "name": "Rapid Hit",
+       "text": "<div class='new_pd'>Precision hits build Rapid Hit stacks, granting:</div> <style> .rapid_hit tr:nth-child(odd) {background:#222;} .rapid_hit td, .rapid_hit th{padding-top: 3px;padding-bottom: 3px;padding-right: 7px;padding-left: 7px;} </style> <table class='new_pd rapid_hit' style='border-collapse:collapse;width: 100%;'> <tbody> <tr style='background: none;'> <th></th> <th></th> <th colspan='3'>Reload</th> </tr> <tr> <th></th> <th>Stability</th> <th>Stat</th> <th>Time</th> <th>Reduction</th> </tr> <tr> <td>1x</td> <td>5</td> <td>10</td> <td>relo_t_0</td> <td>relo_r_0</td> </tr> <tr> <td>2x</td> <td>10</td> <td>27</td> <td>relo_t_1</td> <td>relo_r_1</td> </tr> <tr> <td>3x</td> <td>10</td> <td>32</td> <td>relo_t_2</td> <td>relo_r_2</td> </tr> <tr> <td>4x</td> <td>20</td> <td>40</td> <td>relo_t_3</td> <td>relo_r_3</td> </tr> <tr> <td>5x</td> <td>23</td> <td>54</td> <td>relo_t_4</td> <td>relo_r_4</td> </tr> </tbody> </table> <div class='new_pd'>for 2 seconds.</div>",
+       "reload": {
+          "conditional": {
+             "loop": 5,
+             "stat":        [5,     30,   35,    45,   60   ],
+             "multiplayer": [0.985, 0.97, 0.955, 0.94, 0.925]
+          }
+       },
+       "notes": "Pip1n's sheet is missing multiplayer"
+    },
+    "----------469285294":{
+       "name": "Recombination",
+       "text": ""
+    },
+    "1523832109":{
+       "name": "Reconstruction",
+       "text":"<div class='new_pd'>After not shooting for 4 seconds:<br>Reloads 10% of base magazine<br>Maxes out at double magazine size.</div>"
+    },
+    "----------3201496230":{
+       "name": "Redirection",
+       "text": ""
+    },
+    "----------299272945":{
+       "name": "Release the Wolves",
+       "text": ""
+    },
+    "----------1749209109":{
+       "name": "Relentless Strikes",
+       "text": ""
+    },
+    "----------1427256713":{
+       "name": "Reservoir Burst",
+       "text": ""
+    },
+    "----------2032054360":{
+       "name": "Restorative Mod",
+       "text": ""
+    },
+    "----------136456835":{
+       "name": "Reversal of Fortune",
+       "text": ""
+    },
+    "----------290014589":{
+       "name": "Revved Consumption",
+       "text": ""
+    },
+    "----------3418782618":{
+       "name": "Rewind Rounds",
+       "text": ""
+    },
+    "----------2019952880":{
+       "name": "Serve the Colony",
+       "text": ""
+    },
+    "----------818211479":{
+       "name": "Shattering Blade",
+       "text": ""
+    },
+    "3275789089":{
+       "name": "Shield Disorient",
+       "text":"<div class='new_pd'>On Matching Elemental Shield Break:<br>Explosion disorients enemies<br>Within 7 meters for 5 seconds</div>"
+    },
+    "----------3161816588":{
+       "name": "Slideshot",
+       "text": ""
+    },
+    "2039302152":{
+       "name": "Slideways",
+       "text":"<div class='new_pd'>On Slide:<br>Reloads 15% of magazine<br>20 Stability 25 Handling<br>Lasts 3s.</div>"
+    },
+    "957782887":{
+       "name": "Snapshot Sights",
+       "text":"<div class='new_pd'>Greatly faster ADS.<br>33% Faster than 100 Handling.</div>"
+    },
+    "908147344":{
+       "name": "Sneak Bow",
+       "text":"<div class='new_pd'>Prevents ping on radar after shooting while crouched.<br>Increases hold time by 25%</div>"
+    },
+    "----------2921090754":{
+       "name": "Soul Devourer",
+       "text": ""
+    },
+    "----------1378047685":{
+       "name": "Spinning Up",
+       "text": ""
+    },
+    "----------1289604610":{
+       "name": "Spread Shot Package",
+       "text": ""
+    },
+    "3301904089":{
+       "name": "Spike Grenades",
+       "text":"<div class='new_pd'>Increase Impact Damage by 50%.</div>"
+    },
+    "2238035098":{
+       "name": "Storm and Stress",
+       "text":"<div class='new_pd'>Each Kill with Drang grants 1 Overcharged Round,<br>which deals x more damage.</div> <style> .Storm_and_Stress td, .Storm_and_Stress th{padding-top: 1px; padding-bottom: 3px; padding-right: 7px; padding-left: 7px;}</style> <table class='new_pd Storm_and_Stress' style='border-collapse:collapse;'> <tbody> <tr> <th>PvE</th> <th>PvP</th> </tr> <tr> <td>3.62x</td> <td>1.8x</td> </tr> </tbody> </table> <div class='new_pd'>Up to 99 Overcharged Rounds on Magazine.<br>Lose all Overcharged rounds on death.</div>"
+    },
+    "----------3117514172":{
+       "name": "Stormbringer",
+       "text": ""
+    },
+    "----------1820235745":{
+       "name": "Subsistence",
+       "text":"<div class='new_pd'>Refreshes 10-17% of Magazine per kill.</div>"
+    },
+    "----------4115637021":{
+       "name": "Sun Blast",
+       "text": ""
+    },
+    "----------2306441428":{
+       "name": "Supercharged Battery",
+       "text": ""
+    },
+    "----------1530804125":{
+       "name": "Superconductor",
+       "text": ""
+    },
+    "3436462433":{
+       "name": "Surplus",
+       "text":"<div class='new_pd'>Grants Stats depending on the amount of charged abilities.</div> <style> .surplus tr:nth-child(odd) { background:#222; } .surplus td, .surplus th{ padding-top: 2px; padding-bottom: 4px; padding-right: 5px; padding-left: 5px; } </style> <table class='new_pd surplus' style='border-collapse:collapse; width: 100%; margin-top:-10px'> <tbody> <tr style='background:none;'> <th></th> <th colspan='3' style='padding-bottom: 0px'>Reload</th> <th></th> <th></th> </tr> <tr> <th></th> <th>Speed</th> <th>Time</th> <th>Reduction</th> <th>Stability</th> <th>Handling <br>Speed</th> </tr> <tr> <td>1x</td> <td>5</td> <td>relo_t_0</td> <td>relo_r_0</td> <td>5</td> <td>10</td> </tr> <tr> <td>2x</td> <td>22</td> <td>relo_t_1</td> <td>relo_r_1</td> <td>15</td> <td>25</td> </tr> <tr> <td>3x</td> <td>50</td> <td>relo_t_2</td> <td>relo_r_2</td> <td>25</td> <td>50</td> </tr> </tbody> </table>",
+       "reload_stat": [5, 22, 50],
+       "reload_multi":[1, 1,  1 ]
+    },
+    "----------3708227201":{
+       "name": "Surrounded",
+       "text": ""
+    },
+    "4082225868":{
+       "name": "Swashbuckler",
+       "text":"<div class='new_pd'>Weapon and Melee Kills increase Damage for 4.5s:</div> <style> td, th{padding-top: 1px; padding-bottom: 3px; padding-right: 7px; padding-left: 7px;}</style> <table class='new_pd' style='border-collapse:collapse; margin-left: auto;margin-right: auto;width: 80%;text-align: center;'> <tbody><tr> <th>1x</th> <th style='background:#222;'>2x</th> <th>3x</th> <th style='background:#222;'>4x</th> <th>5x</th> </tr> <tr> <td>5%</td> <td style='background:#222;'>12%</td> <td>19%</td> <td style='background:#222;'>26%</td> <td>30%</td> </tr> </tbody></table> <div class='new_pd'>Melee Kills instantly max out stacks</div>"
+    },
+    "3350417888":{
+       "name": "Sympathetic Arsenal",
+       "text":"<div class='new_pd'>Reloading up to 6s after a Kill also reloads stowed weapons.</div>"
+    },
+    "----------2130042297":{
+       "name": "Taken Predator",
+       "text": ""
+    },
+    "1890422124":{
+       "name": "Tap the Trigger",
+       "text":"<div class='new_pd'>Grants 25 Stability and 10% higher Accuracy for 0.6s.<br>Refreshes immediately after not firing.</div> <div class='new_pd'>Hair Trigger on Controller</div>"
+    },
+    "----------939227542":{
+       "name": "Target Acquired",
+       "text": ""
+    },
+    "----------806917387":{
+       "name": "Temporal Unlimiter",
+       "text": ""
+    },
+    "----------2620589274":{
+       "name": "The Fundamentals",
+       "text": ""
+    },
+    "1658733671":{
+       "name": "The Roadborn",
+       "text":"<div class='new_pd'>Precision Kills grants Roadborn for 10 seconds.<br>Roadborn grants:</div> <style>.The_Roadborn td, .The_Roadborn th{padding-right: 7px; padding-left: 7px;} .The_Roadborn th{text-align: start;}</style> <table class='new_pd The_Roadborn' style='border-collapse:collapse;'> <tbody> <tr> <th>Precision Damage</th> <td>17%</td> </tr> <tr> <th>Reload Speed</th> <td>40</td> </tr> <tr> <th>Handling</th> <td>30</td> </tr> <tr> <th>Increased RPM</th> <td>to 100</td> </tr> <tr> <th>Falloff distance</th> <td>+1m</td> </tr> </tbody> </table>"
+    },
+    "----------25692695":{
+       "name": "The Scientific Method",
+       "text": ""
+    },
+    "----------2003108620":{
+       "name": "Thin the Herd",
+       "text": ""
+    },
+    "4071163871":{
+       "name": "Threat Detector",
+       "text":"<div class='new_pd'>If within 15 meters of X enemies:</div> <style> tr:nth-child(even) {background:#222;} td, th{padding-top: 1px; padding-bottom: 5px; padding-right: 7px; padding-left: 7px;}</style> <table class='new_pd' style='border-collapse:collapse;'> <tbody> <tr> <th></th> <th>1X</th> <th>2+X</th> </tr> <tr> <td>Stability</td> <td>15</td> <td>40</td> </tr> <tr> <td>Reload</td> <td>15</td> <td>55</td> </tr> <tr> <td>Reload Time</td> <td>relo_t_0</td> <td>relo_t_1</td> </tr> <tr> <td>Time Reduced by</td> <td>relo_r_0</td> <td>relo_r_1</td> </tr> <tr> <td>Handling<br>Animation Speed</td> <td>25%</td> <td>43%</td> </tr> </tbody> </table>",
+       "reload_stat": [15,55],
+       "reload_multi":[1, 1 ]
+    },
+    "2726471870":{
+       "name": "Thresh",
+       "text":"<div class='new_pd'>Kills generate more Super Energy</div> <table class='new_pd' style='border-spacing: 7px 2px;'> <tbody> <tr> <th></th> <th>PvE</th> <th>PvP</th> </tr> <tr> <td>Special</td> <td>+1.5%</td> <td>+1%</td> </tr> <tr> <td>Primary<br>Heavy</td> <td>+1%</td> <td>+1%</td> </tr> </tbody> </table>"
+    },
+    "----------3556949035":{
+       "name": "Time-Slip",
+       "text": ""
+    },
+    "1954620775":{
+       "name": "Timed Payload",
+       "text":"<div class='new_pd'>Splits 55% of damage<br>Into explosive damage with no fall off.<br>Detonates after 0.6 seconds.</div> <div class='new_pd'>Increases Damage.<br>PvE 12% Precision 16% Body.<br>PvP Total damage remains (almost) the same.</div>"
+    },
+    "----------2590710093":{
+       "name": "Tireless Blade",
+       "text": ""
+    },
+    "----------2590365289":{
+       "name": "Together Forever",
+       "text": ""
+    },
+    "----------3977735242":{
+       "name": "Tracking Module",
+       "text": ""
+    },
+    "2360754333":{
+       "name": "Trench Barrel",
+       "text":"<div class='new_pd'>50% increased Damage for 5s or up to 3 shots after a Melee Hit</div>"
+    },
+    "3400784728":{
+       "name": "Triple Tap",
+       "text":"<div class='new_pd'>Landing 3 Precision Hits up to 2.5s between shots:<br>Generate 1 bullets to the magazine.</div>"
+    },
+    "----------2946784966":{
+       "name": "Tunnel Vision",
+       "text": ""
+    },
+    "1645158859":{
+       "name": "Under Pressure",
+       "text":"<div class='new_pd'>As magazine goes below 50% until empty.<br>25% to 50% increased Accuracy and up to 20 stability.</div>"
+    },
+    "----------205890336":{
+       "name": "Underdog",
+       "text": ""
+    },
+    "----------3504197951":{
+       "name": "Unforeseen Repercussions",
+       "text": ""
+    },
+    "3108830275":{
+       "name": "Unrelenting",
+       "text":"<div class='new_pd'>Starts Health Regeneration and heals for 30 HP after obtaining 3 points.</div> <style> .unrelenting tr:nth-child(even) {background:#222;} .unrelenting td, .unrelenting th{padding-top: 1px; padding-bottom: 3px; padding-right: 7px; padding-left: 7px;}</style> <table class='new_pd unrelenting' style='border-collapse:collapse;'> <tbody><tr> <th>Points</th> <th>Enemy</th> </tr> <tr> <td>1</td> <td>Rank-And-File</td> </tr> <tr> <td>2</td> <td>Elites / Guardians</td> </tr> <tr> <td>3</td> <td>Minibosses / Bosses</td> </tr> </tbody></table> <div class='new_pd'>Kills must be within 8 seconds of each.</div>"
+    },
+    "----------861489047":{
+       "name": "Vermin",
+       "text": ""
+    },
+    "1546637391":{
+       "name": "Vorpal Weapon",
+       "text":"<div class='new_pd'>15% Weapon DMG increase to:<br>To Minibosses, Bosses, and Vehicles <br>High-tier Majors (triangle icon)<br>But NOT low-tier Majors (shield icon)</div> <div class='new_pd' style='margin-bottom: -7px;text-align: center;font-weight: bold;'>PvP</div> <style> tr:nth-child(even) {background:#222;} td, th{padding-top: 1px; padding-bottom: 5px; padding-right: 7px; padding-left: 7px;}</style> <table class='new_pd' style='border-collapse:collapse;'> <tbody> <tr> <th>Weapon</th> <th>Super<br>0% resistance</th> <th>Super<br>50% resistance</th> </tr> <tr> <td>Primary</td> <td>20%</td> <td>50%</td> </tr> <tr> <td>Special</td> <td>10%</td> <td>20%</td> </tr> <tr> <td>Heavy</td> <td>10%</td> <td>20%</td> </tr> </tbody> </table> <div class='new_pd'>Supers can have more or less than 50% resistance</div>"
+    },
+    "3592538738":{
+       "name": "Wellspring",
+       "text":"<div class='new_pd'>Kills generate 7.5% Ability Energy split equally to all uncharged abilities.</div> <table class='new_pd' style='border-spacing: 7px 2px;'> <tbody><tr> <th>1x</th> <th>2x</th> <th>3x</th> </tr> <tr> <td>7.5%</td> <td>3.75%</td> <td>2.5%</td> </tr> <tr> </tr></tbody></table>"
+    },
+    "3913600130":{
+       "name": "Whirlwind Blade",
+       "text":"<div class='new_pd'>Sword Hits grant a stacking Damage Buff for 3s.</div> <style> td, th{padding-top: 1px; padding-bottom: 3px; padding-right: 7px; padding-left: 7px;}</style> <table class='new_pd' style='border-collapse:collapse;'> <tbody> <tr> <th>1x</th> <th style='background:#222;'>2x</th> <th>3x</th> <th style='background:#222;'>4x</th> <th>5x</th> </tr> <tr> <td>6%</td> <td style='background:#222;'>12%</td> <td>18%</td> <td style='background:#222;'>24%</td> <td>30%</td> </tr> </tbody> </table>"
+    },
+    "2387244414":{
+       "name": "Zen Moment",
+       "text":"<div class='new_pd'>On hits:<br>Removes Reticle Bounce<br>Reduces Weapon Shake. Visual only.</div>"
+    }
+ }
