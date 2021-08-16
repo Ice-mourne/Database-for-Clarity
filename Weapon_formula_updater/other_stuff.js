@@ -54,15 +54,10 @@ function frame_selection() {
     })
     document.querySelectorAll('.select_frame > div').forEach(e => e.addEventListener('click', event => {
         document.querySelector('.selected_frame').innerHTML = event.currentTarget.parentElement.innerHTML
-    })) 
+    }))
 
 
 }
-
-
-
-
-
 
 function reload_formula_stuff() {
     let selected_weapon = document.getElementById('weapons').value
@@ -79,10 +74,48 @@ function reload_formula_stuff() {
         document.getElementById('reload_formula').querySelector('.formula')
         .textContent = `Numbers for formula missing`
     }
-
-
 }
+setTimeout(do_canvas_things, 1000)
 
+function do_canvas_things() {
+    let canvas = document.querySelector('canvas')
+    canvas.width = 320
+    canvas.height = 150
+    function draw_new(){
+        let draw = canvas.getContext('2d')
+        draw.strokeStyle = 'rgba(255, 0, 0)';
+        draw.beginPath();
+        draw.moveTo(0, 30);
+        draw.lineTo(30, 30);
+        draw.lineTo(280, 120);
+        draw.lineTo(320, 120);
+        draw.stroke();
+    }
+
+    let number = document.querySelector('#number')
+
+
+    let line = canvas.getContext('2d')
+
+
+
+    canvas.addEventListener('mousemove', e => {
+        number.textContent = e.layerX
+        number.style.left = `${e.pageX-30}px`
+        number.style.top = `${e.pageY-20}px`
+
+
+        line.clearRect(0, 0, canvas.width, canvas.height)
+        draw_new()
+        line.strokeStyle = 'rgba(0, 255, 0)';
+        line.beginPath();
+        line.moveTo(e.layerX, 0);
+        line.lineTo(e.layerX, 150);
+        line.stroke();
+
+        // console.log(e);
+    })
+}
 
 
 
