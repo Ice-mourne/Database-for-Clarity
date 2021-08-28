@@ -94,16 +94,12 @@ function do_canvas_things() {
 
     let number = document.querySelector('#number')
 
-
     let line = canvas.getContext('2d')
-
-
 
     canvas.addEventListener('mousemove', e => {
         number.textContent = e.layerX
         number.style.left = `${e.pageX-30}px`
         number.style.top = `${e.pageY-20}px`
-
 
         line.clearRect(0, 0, canvas.width, canvas.height)
         draw_new()

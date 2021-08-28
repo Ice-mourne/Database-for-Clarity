@@ -550,23 +550,23 @@
        "text_fallback":"While Aiming down sights:<br>+10% zoom<br>+5% Projectile Speed",
        "range": {
           "normal": {
-             "loop": 1,
-             "multiplayer": 1.1
+            "loop": 1,
+            "multiplayer": 1.1
           }
        }
     },
-    "247725512":{
-       "name": "Rapid Hit",
-       "text": "<div class='new_pd'>Precision hits build Rapid Hit stacks, granting:</div> <style> .rapid_hit tr:nth-child(odd) {background:#222;} .rapid_hit td, .rapid_hit th{padding-top: 3px;padding-bottom: 3px;padding-right: 7px;padding-left: 7px;} </style> <table class='new_pd rapid_hit' style='border-collapse:collapse;width: 100%;'> <tbody> <tr style='background: none;'> <th></th> <th></th> <th colspan='3'>Reload</th> </tr> <tr> <th></th> <th>Stability</th> <th>Stat</th> <th>Time</th> <th>Reduction</th> </tr> <tr> <td>1x</td> <td>5</td> <td>10</td> <td>relo_t_0</td> <td>relo_r_0</td> </tr> <tr> <td>2x</td> <td>10</td> <td>27</td> <td>relo_t_1</td> <td>relo_r_1</td> </tr> <tr> <td>3x</td> <td>10</td> <td>32</td> <td>relo_t_2</td> <td>relo_r_2</td> </tr> <tr> <td>4x</td> <td>20</td> <td>40</td> <td>relo_t_3</td> <td>relo_r_3</td> </tr> <tr> <td>5x</td> <td>23</td> <td>54</td> <td>relo_t_4</td> <td>relo_r_4</td> </tr> </tbody> </table> <div class='new_pd'>for 2 seconds.</div>",
-       "reload": {
-          "conditional": {
-             "loop": 5,
-             "stat":        [5,     30,   35,    45,   60   ],
-             "multiplayer": [0.985, 0.97, 0.955, 0.94, 0.925]
-          }
-       },
-       "notes": "Pip1n's sheet is missing multiplayer"
-    },
+"247725512": {
+   "name": "Rapid Hit",
+   "text": "<div class='new_pd'>Precision hits build Rapid Hit stacks, granting:</div> <style> .rapid_hit tr:nth-child(odd) {background:#222;} .rapid_hit td, .rapid_hit th{padding-top: 3px;padding-bottom: 3px;padding-right: 7px;padding-left: 7px;} </style> <table class='new_pd rapid_hit' style='border-collapse:collapse;width: 100%;'> <tbody> <tr style='background: none;'> <th></th> <th></th> <th colspan='3'>Reload</th> </tr> <tr> <th></th> <th>Stability</th> <th>Stat</th> <th>Time</th> <th>Reduction</th> </tr> <tr> <td>1x</td> <td>5</td> <td>10</td> <td>relo_t_0</td> <td>relo_r_0</td> </tr> <tr> <td>2x</td> <td>10</td> <td>27</td> <td>relo_t_1</td> <td>relo_r_1</td> </tr> <tr> <td>3x</td> <td>10</td> <td>32</td> <td>relo_t_2</td> <td>relo_r_2</td> </tr> <tr> <td>4x</td> <td>20</td> <td>40</td> <td>relo_t_3</td> <td>relo_r_3</td> </tr> <tr> <td>5x</td> <td>23</td> <td>54</td> <td>relo_t_4</td> <td>relo_r_4</td> </tr> </tbody> </table> <div class='new_pd'>for 2 seconds.</div>",
+   "reload": {
+      "conditional": {
+            "loop" :  5,
+            "stat" : [5,     30,   35,    45,   60   ],
+            "multi": [0.985, 0.97, 0.955, 0.94, 0.925]
+      }
+   },
+   "last_modified": "2021 08 17"
+},
     "----------469285294":{
        "name": "Recombination",
        "text": ""
