@@ -74,6 +74,11 @@
             "item_image": ".item-img",
             "masterwork_item_image": ".ItemIcon-m_masterwork-YK7XO",
             "thumbs_up_icon": ".rating-icon.godroll"
+        },
+        "flow_handler": {
+            "refresh_button": ".Header-m_menuItem-dhe8c",
+            "items": ".item",
+            "dim_header": ".Header-m_headerLinks-hCOGA"
         }
     }
 }
