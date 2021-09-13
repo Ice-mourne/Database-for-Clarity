@@ -1,0 +1,2860 @@
+{
+   "exotic_armor": {
+      "193869520": {
+         "name": "Hydraulic Boosters",
+         "item_name": "St0mp-EE5",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Increased Jump Height Increase:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "High Jump = 9 metres -> 12 metres (33% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Strafe Jump = 8 metres -> 9 metres (10% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Triple Jump = 6 metres -> 7 metres for First Jump (16% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "9 metres -> 11 metres for Second Jump (22% higher)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Jump Distance Increase: (Includes innate 6.25% faster sprint)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "High Jump = 28 metres -> 33 metres (18% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Strafe Jump = 26 metres -> 31 metres (19% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Triple Jump = 31 metres -> 38 metres. (22% higher)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Increases Sprint Speed by 6.25%"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Increases Slide Distance by 33%"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-8.0"
+      },
+      "193869522": {
+         "name": "Illegally Modded Holster",
+         "item_name": "Lucky Pants",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Intrinsic Hand Cannon Holster"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "100 Handling Ready Speed and Y% Accuracy Increase on Draw for X seconds."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "After readying a Hand Cannon with a Full Magazine that deals Kinetic Damage or matches your Subclass:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "60% Damage Increase per Hit for 5 seconds. Maxes out at 600% after 10 Hits."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Eriana's Vow has a reduced effectiveness of 30% Damage Increase per Hit."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "After the Buff runs out, you swap weapons, or firing after the 5 second period:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "You cannot gain stacks or reacquire the buff for 10 seconds."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.10"
+      },
+      "193869523": {
+         "name": "Uncanny Arrows",
+         "item_name": "Orpheus Rig",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Deadfall returns Ability Energy per Enemy Tethered. "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "X% Super Energy. Max of 50% Super Energy."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "10% Grenade"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "10% Melee"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "10% Class Ability Energy."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Moebius Quiver can fire 2 more Arrows per Super Activation."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.44"
+      },
+      "475652357": {
+         "name": "Wish-Dragon Teeth",
+         "item_name": "Young Ahamkara's Spine",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Tripmine Grenades are enhanced and have Fastball intrinsically."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Enhanced Tripmine Grenades"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "14% Damage Increase"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "X% Bigger Radius, with no Damage Falloff."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Last 30 seconds (10 -> 30) and have 100HP with 50% Damage Resist."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Deal no Self-Damage"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Ability Damage recharges 33% of Grenade Ability."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-8.2"
+      },
+      "609852545": {
+         "name": "Rapid Cooldown",
+         "item_name": "Fr0st-EE5",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "If Sprinting: "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "100% Increased Grenade and Melee Recharge Speed."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Regenerates 3.5% Class Ability per Second."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "6.25% Faster Sprint for 10 seconds. "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Not refreshable."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Additive to Focused Breathing's 3% Class Ability per Second"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-18.53"
+      },
+      "691578978": {
+         "name": "Adamantine Brace",
+         "item_name": "Oathkeeper",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Bows are able to hold perfect draws indefinitely."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "40ms Faster Draw Time."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.39"
+      },
+      "691578979": {
+         "name": "Sharp Edges",
+         "item_name": "Shards of Galanor",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Blade Barrage Hits and Kills grant \"Super Regeneration\" or something buff that grants X% Super per second."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Caps at 50% Super Energy."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Duration depends on Kills and Hits, as well as Enemy Rank"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.54"
+      },
+      "896224899": {
+         "name": "Relentless Tracker",
+         "item_name": "Foetracer",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Marks Enemies for 5 seconds after hovering reticle over them. Persists briefly through walls."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "If Enemy is below 30% HP: Grants a 1% Damage Increase per percent below 30%"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "(Eg: 10% HP left -> 20% Damage Increase)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Damage Increase applies to both abilities and weapons."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-18.48"
+      },
+      "903984858": {
+         "name": "Probability Matrix",
+         "item_name": "Lucky Raspberry",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "25% Chance per Enemy hit with Arcbolt Grenade to recharge your Grenade Ability"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Arcbolt Grenades chain up to 5 times (from 4)"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.13"
+      },
+      "978537162": {
+         "name": "Scissor Fingers",
+         "item_name": "Ophidia Spathe",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Grants an additional Melee Charge to Solar Subclasses."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Melee Charges are recharged simultaneously."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "(Eg: Both are recharged on dodge)"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.43"
+      },
+      "1001356380": {
+         "name": "Feast of Light",
+         "item_name": "Star-Eater Scales",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Increased Super Energy from Orbs of Power."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "7.1% -> 10% for Super Orbs"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "2.5% -> 4.17% for Masterwork Orbs"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "While Super Energy is full:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Picking up an Orb of Power grants 1 Overcharge Stack. "
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Each Overcharge Stacks grants increased Super Damage, up to 1.7x."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "14% | 27% | 40% | 55% | 62% | 66% | 70%"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Casting Super while Overcharged heals you for X HP"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Casting Super while at 8 Overcharge Stacks grants you a Y HP Overshield for 16 seconds."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.58"
+      },
+      "1053737370": {
+         "name": "New Tricks",
+         "item_name": "Shinobu's Vow",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "If on Skip Grenades."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Grants an extra Grenade Charge."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Skip Grenades spawn 1 more drone (4 -> 5) and chase enemies much more aggressively."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Hits with Skip Grenades grant X% Grenade Energy."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.55"
+      },
+      "1163283805": {
+         "name": "Misdirection",
+         "item_name": "Gemini Jester",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Applies Misdirection to enemies within 15 metres."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "textClass": "CDCA_desc-pve-",
+                     "text": "PVE"
+                  },
+                  {
+                     "text": " Misdirection disorients minors as well as elites for 5 seconds."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "textClass": "CDCA_desc-pvp-",
+                     "text": "PVP"
+                  },
+                  {
+                     "text": " Misdirection warps audio and removes radar for 5 seconds, as well as briefly blinding."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Misdirection also deals 1 damage."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.0"
+      },
+      "1219761634": {
+         "name": "Parting Gift",
+         "item_name": "The Bombardiers",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Drops a Parting Gift that explodes and deals 120 Damage over 7.5 metres with a 1(?) second fuse."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Parting Gift has an additional effect based on Subclass:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Blind for 3 seconds."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Burn for 3 seconds, dealing 6x5"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Slows for 2 seconds and refreshes existing Slow Stacks. Does not apply Slow Stacks."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Suppress for 7 seconds [Does not apply to Guardians in Super]"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-18.39"
+      },
+      "1321354572": {
+         "name": "Upgraded Sensor Pack",
+         "item_name": "Knucklehead Radar",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Radar remains active while Aiming Down Sights."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "If crouched: Grants Enhanced Radar. (Posseses 12 sectors instead of 6)"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.6"
+      },
+      "1321354573": {
+         "name": "Hawkeye Hack",
+         "item_name": "Celestial Nighthawk",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Only one shot per Golden Gun activation."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Grants 500% more damage to Golden Gun."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "(37% more compared to Line 'Em Up x3)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Returns 33% of Super Energy on Kill."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-16.31"
+      },
+      "1474735276": {
+         "name": "Roving Assassin",
+         "item_name": "Gwisin Vest",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "During Spectral Blade"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Restores Super Energy % on Heavy Attack based on the amount of Spectral Blade Kills."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Super Energy % gains based on kills"
+                  }
+               ]
+            },
+            {
+               "lineClass": "CDCA_desc-pve- ",
+               "lineText": [
+                  {
+                     "text": "PVE 11.1 -> 14.3 -> 16.5 -> 16.9 -> 17.1 "
+                  }
+               ]
+            },
+            {
+               "lineClass": "CDCA_desc-pvp- ",
+               "lineText": [
+                  {
+                     "text": "PVP 8.3 -> 12.5 -> 14.2 -> 15.8 -> 16.7"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.4"
+      },
+      "1474735277": {
+         "name": "Double Dodge",
+         "item_name": "The Sixth Coyote",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Adds an extra Dodge Charge."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.56"
+      },
+      "1619425569": {
+         "name": "Light Shift",
+         "item_name": "Mask of Bakris",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Stasis Subclass Only"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Replaces Dodge with Shift."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Shift has a distance of 10 metres, and renders you completely invisible except for a trail for the duration of the shift."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Dodging grants Light Shift buff for 10 seconds."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "[PVE] Light Shift grants a 10% Damage Increase to Slowed/Frozen targets, as well as granting 10% Damage Increase to Arc Weapons."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Dodge does not recharge while Light Shift buff is active."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.32"
+      },
+      "1688602431": {
+         "name": "Nightmare Fuel",
+         "item_name": "Sealed Ahamkara Grasps",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Melee Hits refresh magazine."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "7 second cooldown."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.50"
+      },
+      "1702288800": {
+         "name": "The Dance",
+         "item_name": "Radiant Dance Machines",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "While within 15 metres of an enemy, Multi-Dodge Ready appears on the Buff list."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "After Dodging within 15 metres of an Enemy:"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Unlimited Dodges for 6 seconds."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Can dodge up to 6 times per activation."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Effect immediately ends if you are over 15 metres away from an Enemy while Multi-Dodge is active."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.48"
+      },
+      "1734144409": {
+         "name": "Spring-Loaded Mounting",
+         "item_name": "Mechaneer's Tricksleeves",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Readying sidearm on critical health: "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "textClass": "CDCA_desc-pve-",
+                     "text": "100%"
+                  },
+                  {
+                     "textClass": "CDCA_desc-pvp-",
+                     "text": " [35%]"
+                  },
+                  {
+                     "text": " Damage Increase until no longer critical."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Refreshes sidearm magazine. (Generates ammo if reserves are empty)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "100 Handling to Sidearm Stow and Ready speed."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.37"
+      },
+      "1935198785": {
+         "name": "Beyond The Veil",
+         "item_name": "Omnioculus",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Grants an extra Smoke Bomb Charge."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Cloaking allies grants 50% Melee Energy per ally."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "textClass": "CDCA_desc-pve-",
+                     "text": "50%"
+                  },
+                  {
+                     "textClass": "CDCA_desc-pvp-",
+                     "text": " [10%]"
+                  },
+                  {
+                     "text": " Damage Resistance on any Invisible effects. Applies to teammates made invisible."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.42"
+      },
+      "2203146422": {
+         "name": "Vanishing Execution",
+         "item_name": "Assassin's Cowl",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Gain Invisibility on Powered Melee Kill. (Longer on Finishers)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Heals for X on Powered Melee Kill. (Stronger on Finishers)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Invisibility Duration"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Minor = 6 seconds (10)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Elite = 9 seconds (13)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Miniboss = 12.5 seconds (13)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Boss = 13 seconds (13)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Bosses are not finishable."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-16.3"
+      },
+      "2268523867": {
+         "name": "Mobius Conduit",
+         "item_name": "Raiju's Harness",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Blocking with Whirlwind Guard doesn't consume extra Super Energy."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Can deactivate Arc Staff at any time to preserve a portion of unspent Super Energy."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Instantaneous Deactivation refunds 62.5% Super Energy."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.43"
+      },
+      "2415768376": {
+         "name": "Skittering Stinger",
+         "item_name": "Athrys's Embrace",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Throwing Knife gains greatly increased tracking and a second bounce."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "After 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Additional Precision Hits increase duration by 5 seconds each."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Strengthened Throwing Knife have a 200% [100%] Damage Increase with throwing knife, and staggers unstoppable champions."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Landing a throwing knife hit removes buff."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-17.42"
+      },
+      "2757274117": {
+         "name": "Touch of Venom",
+         "item_name": "Khepri's Sting",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Powered Melee Hit instantly casts Smoke Bomb."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Smoke Bombs have a 150% Damage Increase."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Standing in the Smoke Bomb's Cloud grants Truesight for 3 seconds, allowing you to see enemy outlines through walls from up to 64 metres away."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.5"
+      },
+      "2766109874": {
+         "name": "Wraithmetal Mail",
+         "item_name": "The Dragon's Shadow",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Grants Wraithmetal Mail for 9 seconds."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Wraithmetal Mail"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Reloads all weapons"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Grants 100 Handling (w/ 0.95x Scalar), 100 Reload, and 50 Mobility."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Increases Sprint Speed by 6.25%."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Increases Slide Distance by 33%."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-18.46"
+      },
+      "2773056939": {
+         "name": "Vanishing Shadow",
+         "item_name": "Graviton Forfeit",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Increases the duration of Invisibility effects."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Rat King: 6 -> 10 seconds (66% Increase)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Vanish in Smoke: 7 -> 12 seconds (71% Increase)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Vanishing Step: 4.5 -> 7 seconds (44% Increase) "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Flawless Execution: 9 -> 15 seconds (66% Increase)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "While Invisible:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Regenerates 4.4% (+Y% per Enemy within X metres) of Melee Ability per second."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "X Recovery"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Y Handling (Ready Speed only)"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.2"
+      },
+      "3562696927": {
+         "name": "Burning Souls",
+         "item_name": "Wormhusk Crown",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Heals 44HP"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-8.1"
+      },
+      "4165919945": {
+         "name": "Cross Counter",
+         "item_name": "Liar's Handshake",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Arcstrider Subclass Only"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Receiving or Dealing Melee Damage grants Cross Counter for 3 seconds or until Melee Hit."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Cross Counter grants a 200% Melee Damage Increase and heals for XHP on Melee Hit."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "One-Two Punch's bonus is reduced to 80% if Cross Counter is active."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.8"
+      }
+   },
+   "exotic_armor_perk": {
+      "117669763": {
+         "name": "The Dance",
+         "item_name": "Radiant Dance Machines",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "While within 15 metres of an enemy, Multi-Dodge Ready appears on the Buff list."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "After Dodging within 15 metres of an Enemy:"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Unlimited Dodges for 6 seconds."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Can dodge up to 6 times per activation."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Effect immediately ends if you are over 15 metres away from an Enemy while Multi-Dodge is active."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.48"
+      },
+      "236605015": {
+         "name": "Vanishing Execution",
+         "item_name": "Assassin's Cowl",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Gain Invisibility on Powered Melee Kill. (Longer on Finishers)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Heals for X on Powered Melee Kill. (Stronger on Finishers)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Invisibility Duration"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Minor = 6 seconds (10)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Elite = 9 seconds (13)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Miniboss = 12.5 seconds (13)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Boss = 13 seconds (13)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Bosses are not finishable."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-16.3"
+      },
+      "481860150": {
+         "name": "Wish-Dragon Teeth",
+         "item_name": "Young Ahamkara's Spine",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Tripmine Grenades are enhanced and have Fastball intrinsically."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Enhanced Tripmine Grenades"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "14% Damage Increase"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "X% Bigger Radius, with no Damage Falloff."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Last 30 seconds (10 -> 30) and have 100HP with 50% Damage Resist."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Deal no Self-Damage"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Ability Damage recharges 33% of Grenade Ability."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-8.2"
+      },
+      "481860151": {
+         "name": "Spring-Loaded Mounting",
+         "item_name": "Mechaneer's Tricksleeves",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Readying sidearm on critical health: "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "textClass": "CDCA_desc-pve-",
+                     "text": "100%"
+                  },
+                  {
+                     "textClass": "CDCA_desc-pvp-",
+                     "text": " [35%]"
+                  },
+                  {
+                     "text": " Damage Increase until no longer critical."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Refreshes sidearm magazine. (Generates ammo if reserves are empty)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "100 Handling to Sidearm Stow and Ready speed."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.37"
+      },
+      "553093017": {
+         "name": "Beyond The Veil",
+         "item_name": "Omnioculus",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Grants an extra Smoke Bomb Charge."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Cloaking allies grants 50% Melee Energy per ally."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "textClass": "CDCA_desc-pve-",
+                     "text": "50%"
+                  },
+                  {
+                     "textClass": "CDCA_desc-pvp-",
+                     "text": " [10%]"
+                  },
+                  {
+                     "text": " Damage Resistance on any Invisible effects. Applies to teammates made invisible."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.42"
+      },
+      "593361144": {
+         "name": "Wraithmetal Mail",
+         "item_name": "The Dragon's Shadow",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Grants Wraithmetal Mail for 9 seconds."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Wraithmetal Mail"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Reloads all weapons"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Grants 100 Handling (w/ 0.95x Scalar), 100 Reload, and 50 Mobility."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Increases Sprint Speed by 6.25%."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Increases Slide Distance by 33%."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-18.46"
+      },
+      "593361147": {
+         "name": "Probability Matrix",
+         "item_name": "Lucky Raspberry",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "25% Chance per Enemy hit with Arcbolt Grenade to recharge your Grenade Ability"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Arcbolt Grenades chain up to 5 times (from 4)"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.13"
+      },
+      "595829387": {
+         "name": "Cross Counter",
+         "item_name": "Liar's Handshake",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Arcstrider Subclass Only"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Receiving or Dealing Melee Damage grants Cross Counter for 3 seconds or until Melee Hit."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Cross Counter grants a 200% Melee Damage Increase and heals for XHP on Melee Hit."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "One-Two Punch's bonus is reduced to 80% if Cross Counter is active."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.8"
+      },
+      "692285813": {
+         "name": "Light Shift",
+         "item_name": "Mask of Bakris",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Stasis Subclass Only"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Replaces Dodge with Shift."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Shift has a distance of 10 metres, and renders you completely invisible except for a trail for the duration of the shift."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Dodging grants Light Shift buff for 10 seconds."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "[PVE] Light Shift grants a 10% Damage Increase to Slowed/Frozen targets, as well as granting 10% Damage Increase to Arc Weapons."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Dodge does not recharge while Light Shift buff is active."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.32"
+      },
+      "897181301": {
+         "name": "Rapid Cooldown",
+         "item_name": "Fr0st-EE5",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "If Sprinting: "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "100% Increased Grenade and Melee Recharge Speed."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Regenerates 3.5% Class Ability per Second."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "6.25% Faster Sprint for 10 seconds. "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Not refreshable."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Additive to Focused Breathing's 3% Class Ability per Second"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-18.53"
+      },
+      "1449897496": {
+         "name": "Adamantine Brace",
+         "item_name": "Oathkeeper",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Bows are able to hold perfect draws indefinitely."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "40ms Faster Draw Time."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.39"
+      },
+      "1449897497": {
+         "name": "Sharp Edges",
+         "item_name": "Shards of Galanor",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Blade Barrage Hits and Kills grant \"Super Regeneration\" or something buff that grants X% Super per second."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Caps at 50% Super Energy."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Duration depends on Kills and Hits, as well as Enemy Rank"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.54"
+      },
+      "1694242448": {
+         "name": "Illegally Modded Holster",
+         "item_name": "Lucky Pants",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Intrinsic Hand Cannon Holster"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "100 Handling Ready Speed and Y% Accuracy Increase on Draw for X seconds."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "After readying a Hand Cannon with a Full Magazine that deals Kinetic Damage or matches your Subclass:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "60% Damage Increase per Hit for 5 seconds. Maxes out at 600% after 10 Hits."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Eriana's Vow has a reduced effectiveness of 30% Damage Increase per Hit."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "After the Buff runs out, you swap weapons, or firing after the 5 second period:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "You cannot gain stacks or reacquire the buff for 10 seconds."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.10"
+      },
+      "1694242449": {
+         "name": "Uncanny Arrows",
+         "item_name": "Orpheus Rig",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Deadfall returns Ability Energy per Enemy Tethered. "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "X% Super Energy. Max of 50% Super Energy."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "10% Grenade"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "10% Melee"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "10% Class Ability Energy."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Moebius Quiver can fire 2 more Arrows per Super Activation."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.44"
+      },
+      "1694242450": {
+         "name": "Hydraulic Boosters",
+         "item_name": "St0mp-EE5",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Increased Jump Height Increase:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "High Jump = 9 metres -> 12 metres (33% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Strafe Jump = 8 metres -> 9 metres (10% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Triple Jump = 6 metres -> 7 metres for First Jump (16% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "9 metres -> 11 metres for Second Jump (22% higher)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Jump Distance Increase: (Includes innate 6.25% faster sprint)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "High Jump = 28 metres -> 33 metres (18% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Strafe Jump = 26 metres -> 31 metres (19% higher)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Triple Jump = 31 metres -> 38 metres. (22% higher)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Increases Sprint Speed by 6.25%"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Increases Slide Distance by 33%"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-8.0"
+      },
+      "1844314558": {
+         "name": "Parting Gift",
+         "item_name": "The Bombardiers",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Drops a Parting Gift that explodes and deals 120 Damage over 7.5 metres with a 1(?) second fuse."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Parting Gift has an additional effect based on Subclass:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Blind for 3 seconds."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Burn for 3 seconds, dealing 6x5"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Slows for 2 seconds and refreshes existing Slow Stacks. Does not apply Slow Stacks."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Suppress for 7 seconds [Does not apply to Guardians in Super]"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-18.39"
+      },
+      "2119325971": {
+         "name": "Vanishing Shadow",
+         "item_name": "Graviton Forfeit",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Increases the duration of Invisibility effects."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Rat King: 6 -> 10 seconds (66% Increase)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Vanish in Smoke: 7 -> 12 seconds (71% Increase)"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Vanishing Step: 4.5 -> 7 seconds (44% Increase) "
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Flawless Execution: 9 -> 15 seconds (66% Increase)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "While Invisible:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Regenerates 4.4% (+Y% per Enemy within X metres) of Melee Ability per second."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "X Recovery"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Y Handling (Ready Speed only)"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.2"
+      },
+      "2192678014": {
+         "name": "Roving Assassin",
+         "item_name": "Gwisin Vest",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "During Spectral Blade"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Restores Super Energy % on Heavy Attack based on the amount of Spectral Blade Kills."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Super Energy % gains based on kills"
+                  }
+               ]
+            },
+            {
+               "lineClass": "CDCA_desc-pve- ",
+               "lineText": [
+                  {
+                     "text": "PVE 11.1 -> 14.3 -> 16.5 -> 16.9 -> 17.1 "
+                  }
+               ]
+            },
+            {
+               "lineClass": "CDCA_desc-pvp- ",
+               "lineText": [
+                  {
+                     "text": "PVP 8.3 -> 12.5 -> 14.2 -> 15.8 -> 16.7"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.4"
+      },
+      "2192678015": {
+         "name": "Double Dodge",
+         "item_name": "The Sixth Coyote",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Adds an extra Dodge Charge."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.56"
+      },
+      "2663272109": {
+         "name": "Relentless Tracker",
+         "item_name": "Foetracer",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Marks Enemies for 5 seconds after hovering reticle over them. Persists briefly through walls."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "If Enemy is below 30% HP: Grants a 1% Damage Increase per percent below 30%"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "(Eg: 10% HP left -> 20% Damage Increase)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Damage Increase applies to both abilities and weapons."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-18.48"
+      },
+      "2663272110": {
+         "name": "Hawkeye Hack",
+         "item_name": "Celestial Nighthawk",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Only one shot per Golden Gun activation."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Grants 500% more damage to Golden Gun."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "(37% more compared to Line 'Em Up x3)"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Returns 33% of Super Energy on Kill."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-16.31"
+      },
+      "2663272111": {
+         "name": "Upgraded Sensor Pack",
+         "item_name": "Knucklehead Radar",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Radar remains active while Aiming Down Sights."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "If crouched: Grants Enhanced Radar. (Posseses 12 sectors instead of 6)"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.6"
+      },
+      "2805134531": {
+         "name": "Nightmare Fuel",
+         "item_name": "Sealed Ahamkara Grasps",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Melee Hits refresh magazine."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "7 second cooldown."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.50"
+      },
+      "3663096260": {
+         "name": "Skittering Stinger",
+         "item_name": "Athrys's Embrace",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Throwing Knife gains greatly increased tracking and a second bounce."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "After 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Additional Precision Hits increase duration by 5 seconds each."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Strengthened Throwing Knife have a 200% [100%] Damage Increase with throwing knife, and staggers unstoppable champions."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Landing a throwing knife hit removes buff."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-17.42"
+      },
+      "3666112472": {
+         "name": "Scissor Fingers",
+         "item_name": "Ophidia Spathe",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Grants an additional Melee Charge to Solar Subclasses."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Melee Charges are recharged simultaneously."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "(Eg: Both are recharged on dodge)"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-20.43"
+      },
+      "3723531833": {
+         "name": "Burning Souls",
+         "item_name": "Wormhusk Crown",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Heals 44HP"
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-8.1"
+      },
+      "3907299874": {
+         "name": "New Tricks",
+         "item_name": "Shinobu's Vow",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "If on Skip Grenades."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Grants an extra Grenade Charge."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Skip Grenades spawn 1 more drone (4 -> 5) and chase enemies much more aggressively."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Hits with Skip Grenades grant X% Grenade Energy."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.55"
+      },
+      "4024170927": {
+         "name": "Misdirection",
+         "item_name": "Gemini Jester",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "On Dodge:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Applies Misdirection to enemies within 15 metres."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "textClass": "CDCA_desc-pve-",
+                     "text": "PVE"
+                  },
+                  {
+                     "text": " Misdirection disorients minors as well as elites for 5 seconds."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "textClass": "CDCA_desc-pvp-",
+                     "text": "PVP"
+                  },
+                  {
+                     "text": " Misdirection warps audio and removes radar for 5 seconds, as well as briefly blinding."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Misdirection also deals 1 damage."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.0"
+      },
+      "4048389864": {
+         "name": "Feast of Light",
+         "item_name": "Star-Eater Scales",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Increased Super Energy from Orbs of Power."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "7.1% -> 10% for Super Orbs"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "2.5% -> 4.17% for Masterwork Orbs"
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "While Super Energy is full:"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Picking up an Orb of Power grants 1 Overcharge Stack. "
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Each Overcharge Stacks grants increased Super Damage, up to 1.7x."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "14% | 27% | 40% | 55% | 62% | 66% | 70%"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Casting Super while Overcharged heals you for X HP"
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Casting Super while at 8 Overcharge Stacks grants you a Y HP Overshield for 16 seconds."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.58"
+      },
+      "4102900702": {
+         "name": "Touch of Venom",
+         "item_name": "Khepri's Sting",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Powered Melee Hit instantly casts Smoke Bomb."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Smoke Bombs have a 150% Damage Increase."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Standing in the Smoke Bomb's Cloud grants Truesight for 3 seconds, allowing you to see enemy outlines through walls from up to 64 metres away."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.4-19.5"
+      },
+      "4251375227": {
+         "name": "Mobius Conduit",
+         "item_name": "Raiju's Harness",
+         "description": [
+            {
+               "lineText": [
+                  {
+                     "text": "Blocking with Whirlwind Guard doesn't consume extra Super Energy."
+                  }
+               ]
+            },
+            {
+               "lineClass": "spacer_class"
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Can deactivate Arc Staff at any time to preserve a portion of unspent Super Energy."
+                  }
+               ]
+            },
+            {
+               "lineText": [
+                  {
+                     "text": "Instantaneous Deactivation refunds 62.5% Super Energy."
+                  }
+               ]
+            }
+         ],
+         "last_edit": "2021.9.5-7.43"
+      }
+   },
+   "armor_mods": {},
+   "weapon_perks": {},
+   "weapon_frames": {},
+   "weapon_mods": {}
+}
