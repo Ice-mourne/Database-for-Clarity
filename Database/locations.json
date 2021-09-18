@@ -16,7 +16,7 @@
         "clarity_menu": {
             "dim_header": ".hCOGA",
 
-            "main_background": ".app::before, .QeSPR, .store-row.store-header, .wPm7X",
+            "main_background": ".cnld_::before, .QeSPR, .store-row.store-header, .wPm7X",
             "farming_mode_background": ".inventory-content .dWVLv",
             "organizer_background": ".ItemTable-m_table-_Qqc0>div",
             "background_under_item": ".yEIm1",
@@ -24,6 +24,11 @@
             "item_image": ".item-img",
             "masterwork_item_image": ".YK7XO",
             "thumbs_up_icon": ".rating-icon.godroll"
+        },
+        "flow_handler": {
+            "refresh_button": ".app-icon.no-pointer-events.fas.fa-sync",
+            "items": ".item",
+            "dim_header": ".hCOGA"
         }
     },
 
@@ -76,7 +81,7 @@
             "thumbs_up_icon": ".rating-icon.godroll"
         },
         "flow_handler": {
-            "refresh_button": ".Header-m_menuItem-dhe8c",
+            "refresh_button": ".app-icon.no-pointer-events.fas.fa-sync",
             "items": ".item",
             "dim_header": ".Header-m_headerLinks-hCOGA"
         }
