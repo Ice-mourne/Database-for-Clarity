@@ -26,7 +26,7 @@
             "thumbs_up_icon": ".rating-icon.godroll"
         },
         "flow_handler": {
-            "refresh_button": ".app-icon.no-pointer-events.fas.fa-sync",
+            "refresh_button": "a[title^='Refresh Destiny Data']",
             "items": ".item",
             "dim_header": ".hCOGA"
         }
@@ -58,7 +58,7 @@
             "wep_stat_value_class": "ItemStat-m_value-3utrN"
         },
         "weapon_perks": {
-            
+
         },
         "d2_gunsmith": {
             "stat_window": "content",
@@ -81,7 +81,7 @@
             "thumbs_up_icon": ".rating-icon.godroll"
         },
         "flow_handler": {
-            "refresh_button": ".app-icon.no-pointer-events.fas.fa-sync",
+            "refresh_button": "a[title^='Refresh Destiny Data']",
             "items": ".item",
             "dim_header": ".Header-m_headerLinks-hCOGA"
         }
