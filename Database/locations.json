@@ -23,7 +23,7 @@
             "background_under_masterwork_item": ".IaYHd",
             "item_image": ".item-img",
             "masterwork_item_image": ".YK7XO",
-            "thumbs_up_icon": ".rating-icon.godroll"
+            "thumbs_up_icon": ".f_baS"
         },
         "flow_handler": {
             "refresh_button": "a[title^='Refresh Destiny Data']",
@@ -78,7 +78,7 @@
             "background_under_masterwork_item": ".BadgeInfo-m_masterwork-IaYHd",
             "item_image": ".item-img",
             "masterwork_item_image": ".ItemIcon-m_masterwork-YK7XO",
-            "thumbs_up_icon": ".rating-icon.godroll"
+            "thumbs_up_icon": ".RatingIcon-m_godroll-f_baS"
         },
         "flow_handler": {
             "refresh_button": "a[title^='Refresh Destiny Data']",
