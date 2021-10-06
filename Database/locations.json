@@ -38,8 +38,8 @@
 
     "beta":{
         "stuff": {
-            "header": ".Header-m_header-QeSPR",
-            "weapon_stats": ".ItemStats-m_stats-riz7_",
+            "header": ".Header-m_header-Urb8A",
+            "weapon_stats": ".ItemStats-m_stats-PXUxQ",
             "all_weapon_perks": ".ItemPerksList-m_sockets-zpM7c",
             "armor_description": ".ArchetypeSocket-m_row-_RDjK"
         },
@@ -54,8 +54,8 @@
             "stat_window": "content",
             "wep_link": ".ItemPopupHeader-m_title-2hFLg > a",
             "wep_stats": "ItemStats-m_stats-3ywbI",
-            "wep_stat_name_class": "ItemStat-m_statName-1XPu7",
-            "wep_stat_value_class": "ItemStat-m_value-3utrN"
+            "wep_stat_name_class": "ItemStat-m_statName-rEVCA",
+            "wep_stat_value_class": "ItemStat-m_value-VF9bE"
         },
         "weapon_perks": {
 
@@ -69,16 +69,16 @@
             "link": ".ItemPopupHeader-m_title-2hFLg > a"
         },
         "clarity_menu": {
-            "dim_header": ".Header-m_headerLinks-hCOGA",
+            "dim_header": ".Header-m_headerLinks-DAYbx",
 
             "main_background": ".App-m_app-d_fug::before, .Header-m_header-QeSPR, .store-row.store-header, .HeaderShadowDiv-m_cover-wPm7X",
             "farming_mode_background": ".inventory-content .DesktopStores-m_activeModeHeader-dWVLv",
             "organizer_background": ".ItemTable-m_table-_Qqc0>div",
-            "background_under_item": ".BadgeInfo-m_badge-yEIm1",
-            "background_under_masterwork_item": ".BadgeInfo-m_masterwork-IaYHd",
+            "background_under_item": ".BadgeInfo-m_badge-NVwHW",
+            "background_under_masterwork_item": ".BadgeInfo-m_masterwork-uiYQa",
             "item_image": ".item-img",
-            "masterwork_item_image": ".ItemIcon-m_masterwork-YK7XO",
-            "thumbs_up_icon": ".RatingIcon-m_godroll-f_baS"
+            "masterwork_item_image": ".ItemIcon-m_masterwork-SO44o",
+            "thumbs_up_icon": ".RatingIcon-m_godroll-WNHDS"
         },
         "flow_handler": {
             "refresh_button": "a[title^='Refresh Destiny Data']",
