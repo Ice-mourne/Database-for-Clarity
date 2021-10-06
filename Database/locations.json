@@ -40,7 +40,7 @@
         "stuff": {
             "header": ".Header-m_header-QeSPR",
             "weapon_stats": ".ItemStats-m_stats-riz7_",
-            "all_weapon_perks": ".ItemPerksList-m_sockets-fgnTy",
+            "all_weapon_perks": ".ItemPerksList-m_sockets-zpM7c",
             "armor_description": ".ArchetypeSocket-m_row-_RDjK"
         },
         "exotic_armor":{
@@ -71,7 +71,7 @@
         "clarity_menu": {
             "dim_header": ".Header-m_headerLinks-hCOGA",
 
-            "main_background": ".App-m_app-cnld_::before, .Header-m_header-QeSPR, .store-row.store-header, .HeaderShadowDiv-m_cover-wPm7X",
+            "main_background": ".App-m_app-d_fug::before, .Header-m_header-QeSPR, .store-row.store-header, .HeaderShadowDiv-m_cover-wPm7X",
             "farming_mode_background": ".inventory-content .DesktopStores-m_activeModeHeader-dWVLv",
             "organizer_background": ".ItemTable-m_table-_Qqc0>div",
             "background_under_item": ".BadgeInfo-m_badge-yEIm1",
