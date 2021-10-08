@@ -71,7 +71,7 @@
         "clarity_menu": {
             "dim_header": ".Header-m_headerLinks-DAYbx",
 
-            "main_background": ".App-m_app-d_fug::before, .Header-m_header-QeSPR, .store-row.store-header, .HeaderShadowDiv-m_cover-_GkhT",
+            "main_background": ".App-m_app-d_fug::before, .Header-m_header-Urb8A, .store-row.store-header, .HeaderShadowDiv-m_cover-_GkhT",
             "farming_mode_background": ".inventory-content .DesktopStores-m_activeModeHeader-dWVLv",
             "organizer_background": ".ItemTable-m_table-_Qqc0>div",
             "background_under_item": ".BadgeInfo-m_badge-NVwHW",
