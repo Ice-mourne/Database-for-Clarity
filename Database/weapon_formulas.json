@@ -128,7 +128,7 @@
 
         "category": {
             "default": {
-                "range":    {"zrm": 1.375,              "zrm_tier": 14,         "vpp": 0.096,           "base": 16,              "base_max": 29.6, "scale": true},
+                "range":    {"zrm": 1.375,              "zrm_tier": 14,         "vpp": 0.096,       "base_min": 16,              "base_max": 29.6, "scale": true},
                 "reload":   {"a": 0.000159282666666667, "b": -0.043624,     "c": 4.61606666666667,  "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.22154,           "number": 35.51692},
@@ -136,7 +136,7 @@
                 }
             },
             "120 RPM": {
-                "range":    {"zrm": 1.375,              "zrm_tier": 14,         "vpp": 0.1,             "base": 19,              "base_max": 34.1,  "scale": true},
+                "range":    {"zrm": 1.375,              "zrm_tier": 14,         "vpp": 0.1,         "base_min": 19,              "base_max": 34.1,  "scale": true},
                 "reload":   {"a": 0.000159282666666667, "b": -0.043624,     "c": 4.61606666666667,  "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.22154,           "number": 35.51692},
