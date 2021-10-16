@@ -57,33 +57,22 @@
             "wep_stat_name_class": "ItemStat-m_statName-rEVCA",
             "wep_stat_value_class": "ItemStat-m_value-VF9bE"
         },
-        "weapon_perks": {
-
-        },
-        "d2_gunsmith": {
-            "stat_window": "content",
-            "location": ".ActionButton-m_actionButton-V9iV5",
-            "class": "ActionButton-m_actionButton-V9iV5",
-            "button_text_hide": "DesktopItemActions-m_collapsed-doC6W",
-            "click_event": "DesktopItemActions-m_collapseButton-2xfla",
-            "link": ".ItemPopupHeader-m_title-2hFLg > a"
-        },
         "clarity_menu": {
-            "dim_header": ".Header-m_headerLinks-DAYbx",
+            "dim_header": ".Header-m_headerLinks-EgXrW",
 
-            "main_background": ".App-m_app-d_fug::before, .Header-m_header-Urb8A, .store-row.store-header, .HeaderShadowDiv-m_cover-_GkhT",
+            "main_background": ".lang-en.char-cols-4.App-m_app-gNe6q, .Header-m_header-YZJBv, .store-row.store-header, .HeaderShadowDiv-m_cover-kI8aG",
             "farming_mode_background": ".inventory-content .DesktopStores-m_activeModeHeader-dWVLv",
             "organizer_background": ".ItemTable-m_table-_Qqc0>div",
-            "background_under_item": ".BadgeInfo-m_badge-NVwHW",
-            "background_under_masterwork_item": ".BadgeInfo-m_masterwork-uiYQa",
+            "background_under_item": ".BadgeInfo-m_badge-N_eIi",
+            "background_under_masterwork_item": ".BadgeInfo-m_badge-N_eIi.BadgeInfo-m_masterwork-jTjHX",
             "item_image": ".item-img",
             "masterwork_item_image": ".ItemIcon-m_masterwork-SO44o",
-            "thumbs_up_icon": ".RatingIcon-m_godroll-WNHDS"
+            "thumbs_up_icon": ".app-icon.no-pointer-events.fas.fa-thumbs-up"
         },
         "flow_handler": {
             "refresh_button": "a[title^='Refresh Destiny Data']",
             "items": ".item",
-            "dim_header": ".Header-m_headerLinks-hCOGA"
+            "dim_header": "..Header-m_headerLinks-EgXrW"
         }
     }
 }
