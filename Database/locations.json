@@ -32,10 +32,6 @@
         }
     },
 
-
-
-
-
     "beta":{
         "stuff": {
             "header": ".Header-m_header-Urb8A",
@@ -72,7 +68,7 @@
         "flow_handler": {
             "refresh_button": "a[title^='Refresh Destiny Data']",
             "items": ".item",
-            "dim_header": "..Header-m_headerLinks-EgXrW"
+            "dim_header": ".Header-m_headerLinks-EgXrW"
         }
     }
 }
