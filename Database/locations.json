@@ -35,9 +35,9 @@
     "beta":{
         "stuff": {
             "header": ".Header-m_header-Urb8A",
-            "weapon_stats": ".ItemStats-m_stats-PXUxQ",
-            "all_weapon_perks": ".ItemPerksList-m_sockets-zpM7c",
-            "armor_description": ".ArchetypeSocket-m_row-_RDjK"
+            "weapon_stats": ".ItemStats-m_stats-yaOm5",
+            "all_weapon_perks": ".ItemPerksList-m_sockets-geHam",
+            "armor_description": ".ArchetypeSocket-m_row-hao93"
         },
         "exotic_armor":{
             "stat_window": "",
@@ -49,9 +49,9 @@
         "extra_weapon_stats":{
             "stat_window": "content",
             "wep_link": ".ItemPopupHeader-m_title-2hFLg > a",
-            "wep_stats": "ItemStats-m_stats-3ywbI",
-            "wep_stat_name_class": "ItemStat-m_statName-rEVCA",
-            "wep_stat_value_class": "ItemStat-m_value-VF9bE"
+            "wep_stats": "ItemStats-m_stats-yaOm5",
+            "wep_stat_name_class": "ItemStat-m_statName-bKXOA",
+            "wep_stat_value_class": "ItemStat-m_value-_LY5t"
         },
         "clarity_menu": {
             "dim_header": ".Header-m_headerLinks-EgXrW",
