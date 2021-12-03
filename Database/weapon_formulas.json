@@ -294,7 +294,7 @@
                 }
             },
             "slug": {
-                "range":    {"zrm": 1,                   "zrm_tier": 12,   "vpp": 0.04,           "base_min": 4,        "base_max": 8, "scale": false},
+                "range":    {"zrm": 1,                   "zrm_tier": 12,   "vpp": 0.06,           "base_min": 4,        "base_max": 10, "scale": false},
                 "reload":   {"a": 0.0000790693333333333, "b": -0.0173282,   "c": 1.41598333333333, "mag_multiplier": true},
                 "handling": {
                     "ready":{"vpp": -0.22154,            "number": 35.51692},
