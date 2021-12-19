@@ -224,6 +224,7 @@
         "3419274965": {"name": "Precision Frame",       "category": "default"},
         "3468089894": {"name": "Aggressive Frame",      "category": "default"},
         "3649430342": {"name": "Two-Tailed Fox",        "category": "default"},
+        "2962361451": {"name": "Gjallarhorn",           "category": "default"},
 
         "category": {
             "default": {
@@ -341,6 +342,7 @@
         "2121086290": {"name": "Rat King",              "category": "default"},
         "3330548924": {"name": "Aggressive Burst",      "category": "default"},
         "3449390870": {"name": "Adaptive Frame",        "category": "default"},
+        "2984682260": {"name": "Forerunner",            "category": "default"},
 
         "category": {
             "default": {
@@ -423,6 +425,8 @@
         "1036269296": {"name": "Coldheart",       "category": "default"},
         "1657401727": {"name": "Ruinous Effigy",  "category": "default"},
         "1797707170": {"name": "Divinity",        "category": "default"},
+        "1294026524": {"name": "Adaptive Frame",  "category": "default"},
+        "3164944314": {"name": "Ager's Scepter",  "category": "default"},
 
         "category": {
             "default": {
