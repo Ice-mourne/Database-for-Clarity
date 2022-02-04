@@ -32,7 +32,7 @@ export interface Description {
 
 export interface Table {
    lineText:   LineText[] // Row in table
-   className?: string // Css class name applies to entire line // columns have their own class names
+   className:  string // Css class name applies to table always 'table'
 }
 
 export interface LineText {
