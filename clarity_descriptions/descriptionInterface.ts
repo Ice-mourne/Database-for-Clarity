@@ -7,63 +7,62 @@ export interface ClarityDescription {
 }
 
 export interface ArmorExotic {
-   name:        string;
-   id:          string;
-   itemName:    string;
-   itemId:      string;
+   name:        string; // Armor perk name
+   id:          string; // Armor perk id
+   itemName:    string; // Armor name
+   itemId:      string; // Armor id
    description: Description[];
-   lastUpdate:  string;
+   lastUpdate:  string; // Last time description was updated
 }
 
 export interface ModsPerks {
-   name:        string;
-   id:          string;
+   name:        string; // Mod, perk, frame name
+   id:          string; // Mod, perk, frame id
    description: Description[];
-   stats?:      Stats;
-   lastUpdate:  string;
-   rarity:      string; //? maybe define possible values
+   stats?:      Stats;  // Community gathered stats
+   lastUpdate:  string; // Last time description was updated
+   rarity?:     string; // Exotic if perk or frames is only on exotic weapon dose not apply to mods
 }
 
 export interface Description {
-   lineText?:  LineText[]
-   className?: string
-   table?:     Table[]
+   lineText?:  LineText[] // Array of objects used to construct line
+   className?: string // Css class name applies to entire line // text in line have its own class name
+   table?:     Table[] // Description in table format
 }
 
 export interface Table {
-   lineText:   LineText[]
-   className?: string
+   lineText:   LineText[] // Row in table
+   className?: string // Css class name applies to entire line // columns have their own class names
 }
 
 export interface LineText {
-   text?:        string
-   className?:   string
-   formulaText?: string
-   formula?:     string
-   title?:       string
-   linkText?:    string
-   linkUrl?:     string
+   text?:        string // Text inline
+   className?:   string // CSS class name applies to part of line or column (not entire column more like a single cell in a spreadsheet)
+   formulaText?: string // Text in the formula for example "In-Game range" if you don't calculate stats skip this
+   formula?:     string // This is an identifier for a formula to tell what kind of formula is it
+   title?:       string // Some extra information about a text I use this for hover over info
+   linkText?:    string // Link label
+   linkUrl?:     string // Link url
 }
 
-export interface Stats {
-   handling?:     ActivePassive;
+export interface Stats { // Community gathered stats
+   chargeDraw?:   ActivePassive;
    damage?:       ActivePassive;
    range?:        ActivePassive;
-   chargeDraw?:   ActivePassive;
-   reload?:       ActivePassive;
    stability?:    ActivePassive;
+   handling?:     ActivePassive;
+   reload?:       ActivePassive;
    aimAssist?:    ActivePassive;
-   magazineSize?: ActivePassive;
    zoom?:         ActivePassive;
-   duration?:     number[];
+   magazineSize?: ActivePassive; // probably will be removed
 }
 
 export interface ActivePassive {
-   active?:  StatMultiplier;
-   passive?: StatMultiplier;
+   active?:  StatMultiplier; // Stats you then some condition is met like killing enemy
+   passive?: StatMultiplier; // Stats you get just by having this perk
 }
 
 export interface StatMultiplier {
-   stat?:       number[];
-   multiplier?: number[];
+   stat?:       number[]; // Flat stat this is not investment stat
+   multiplier?: number[]; // Multiplier used on final value
 }
