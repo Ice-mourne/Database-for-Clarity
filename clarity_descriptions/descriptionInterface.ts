@@ -45,7 +45,7 @@ export interface LineText {
    linkUrl?:     string // Link url
 }
 
-export interface Stats { // Community gathered stats
+export interface Stats {
    chargeDraw?:   ActivePassive;
    damage?:       ActivePassive;
    range?:        ActivePassive;
