@@ -419,6 +419,7 @@
             }
         }
     },
+    "Glaive":{},
     "Trace Rifle":{
         "459441288":  {"name": "Wavesplitter",    "category": "default"},
         "571267712":  {"name": "Prometheus Lens", "category": "default"},
