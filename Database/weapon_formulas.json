@@ -389,7 +389,7 @@
 
         "category": {
             "default": {
-                "range":    {"zrm": 1.275,     "zrm_tier": 13,          "vpp": 0.126,          "base_min": 4.8,       "base_max": 24.5, "scale": false},
+                "range":    {"zrm": 1.275,     "zrm_tier": 13,          "vpp": 0.099,          "base_min": 7.84,       "base_max": 24.5, "scale": false},
                 "reload":   {"a": 0.000075141, "b": -0.0227633333333333, "c": 2.84781333333333, "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.22154,  "number": 35.51692},
