@@ -289,15 +289,15 @@
         "category": {
             "default": {
                 "range":    {"zrm": 1,                   "zrm_tier": 12,   "vpp": 0.036,           "base_min": 3.4,        "base_max": 8, "scale": false},
-                "reload":   {"a": 0.0000640462, "b": -0.0141721,   "c": 1.25061, "mag_multiplier": true},
+                "reload":   {"a": 0.0000640462, "b": -0.0141721,   "c": 1.25061, "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
                     "stow": {"vpp": -0.153306,           "number": 28.8991}
                 }
             },
             "slug": {
-                "range":    {"zrm": 1,                   "zrm_tier": 12,   "vpp": 0.06,           "base_min": 4,        "base_max": 10, "scale": false},
-                "reload":   {"a": 0.0000640462, "b": -0.0141721,   "c": 1.25061, "mag_multiplier": true},
+                "range":    {"zrm": 1,                   "zrm_tier": 12,   "vpp": 0.05,           "base_min": 4,        "base_max": 9, "scale": false},
+                "reload":   {"a": 0.0000640462, "b": -0.0141721,   "c": 1.25061, "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
                     "stow": {"vpp": -0.153306,           "number": 28.8991}
