@@ -370,8 +370,8 @@
                 "range":    null,
                 "reload":   {"a": 0.0000674498, "b": -0.0231542, "c": 3.8384, "mag_multiplier": false},
                 "handling": {
-                    "ready":{"vpp": -0.199386,           "number": 33.3015},
-                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                    "ready":{"vpp": -0.1794474,           "number": 29.97135},
+                    "stow": {"vpp": -0.1379754,           "number": 26.00919}
                 }
             }
         }
