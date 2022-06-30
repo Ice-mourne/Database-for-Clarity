@@ -136,7 +136,7 @@
                 }
             },
             "120 RPM": {
-                "range":    {"zrm": 1.375,              "zrm_tier": 14,         "vpp": 0.1035,         "base_min": 21.95,         "base_max": 34.1,  "scale": true},
+                "range":    {"zrm": 1.375,              "zrm_tier": 14,         "vpp": 0.09,         "base_min": 20,         "base_max": 34.1,  "scale": true},
                 "reload":   {"a": 0.000129019, "b": -0.0363945,     "c": 4.19575,  "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
