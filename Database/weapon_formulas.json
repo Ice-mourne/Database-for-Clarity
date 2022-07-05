@@ -506,7 +506,7 @@
 
         "category": {
             "default": {
-                "range":    {"zrm": 1.275,     "zrm_tier": 13,          "vpp": 0.0891,          "base_min": 8.83,       "base_max": 24.5, "scale": false},
+                "range":    {"zrm": 1.575,     "zrm_tier": 16,          "vpp": 0.09,          "base_min": 16,       "base_max": 16, "scale": false},
                 "reload":   null,
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
