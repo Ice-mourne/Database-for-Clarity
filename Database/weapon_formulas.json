@@ -8,7 +8,7 @@
         "1458010786": {"name": "Lightweight Frame", "category": "default"},
         "1484442054": {"name": "Monte Carlo",       "category": "default"},
         "1636108362": {"name": "Precision Frame",   "category": "default"},
-        "3208839961": {"name": "Cerberus+1",        "category": "cerberus"},
+        "3208839961": {"name": "Cerberus+1",        "category": "Cerberus"},
         "3610814281": {"name": "Hard Light",        "category": "default"},
         "3755070117": {"name": "Sweet Business",    "category": "default"},
 
@@ -43,7 +43,7 @@
         "category": {
             "default": {
                 "range":    null,
-                "reload":   {"a": 0.0000349777, "b": 0.0052722, "c": 1.03916, "mag_multiplier": false},
+                "reload":   null,
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
                     "stow": {"vpp": -0.153306,           "number": 28.8991}
@@ -58,16 +58,48 @@
         "1186480754": {"name": "Bastion",             "category": "default"},
         "1294026524": {"name": "Adaptive Frame",      "category": "default"},
         "1636108362": {"name": "Precision Frame",     "category": "default"},
-        "1656957541": {"name": "Jötunn",              "category": "default"},
-        "1657056865": {"name": "One Thousand Voices", "category": "default"},
-        "1927916065": {"name": "Telesto",             "category": "default"},
+        "1656957541": {"name": "Jötunn",              "category": "Jötunn"},
+        "1657056865": {"name": "One Thousand Voices", "category": "1KV"},
+        "1927916065": {"name": "Telesto",             "category": "Telesto"},
         "2518716062": {"name": "Aggressive Frame",    "category": "default"},
-        "3610750208": {"name": "Vex Mythoclast",      "category": "default"},
+        "3610750208": {"name": "Vex Mythoclast",      "category": "Vex"},
 
         "category": {
             "default": {
                 "range":    {"zrm": 1.3,                 "zrm_tier": null,         "vpp": 0.0324,         "base_min": 10.56,    "base_max": 15.1, "scale": true},
                 "reload":   {"a": 0.0000615281, "b": -0.0198054, "c": 2.82857040000000, "mag_multiplier": false},
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "1KV": {
+                "range":    null,
+                "reload":   null,
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "Telesto": {
+                "range":    null,
+                "reload":   {"a": 0.0000615281, "b": -0.0198054, "c": 2.82857040000000, "mag_multiplier": false},
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "Jötunn": {
+                "range":    null,
+                "reload":   {"a": 0.0000615281, "b": -0.0198054, "c": 2.82857040000000, "mag_multiplier": false},
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "Vex": {
+                "range":    {"zrm": 1.475,              "zrm_tier": 15,          "vpp": 0.0963,          "base_min": 11.87,        "base_max": 40.8, "scale": true},
+                "reload":   {"a": 0.0000855689, "b": -0.0242021, "c": 2.80673006666667, "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
                     "stow": {"vpp": -0.153306,           "number": 28.8991}
@@ -112,7 +144,7 @@
         "213689231":  {"name": "Hawkmoon",         "category": "default"},
         "507151084":  {"name": "Sturm",            "category": "120 RPM"},
         "647617635":  {"name": "Ace of spades",    "category": "default"},
-        "1030990989": {"name": "Crimson",          "category": "default"},
+        "1030990989": {"name": "Crimson",          "category": "Crimson"},
         "1294026524": {"name": "Adaptive Frame",   "category": "default"},
         "1322370662": {"name": "Precision Frame",  "category": "default"},
         "1791592647": {"name": "Malfeasance",      "category": "default"},
@@ -120,7 +152,7 @@
         "2144092201": {"name": "Lumina",           "category": "default"},
         "2189829540": {"name": "Adaptive Frame",   "category": "default"},
         "2757685314": {"name": "Aggressive Frame", "category": "120 RPM"},
-        "2770223582": {"name": "The Last Word",    "category": "default"},
+        "2770223582": {"name": "The Last Word",    "category": "LastWord"},
         "3174300811": {"name": "Eriana's vow",     "category": "Eriana"},
         "3468089894": {"name": "Aggressive Frame", "category": "120 RPM"},
         "3923638944": {"name": "Double Fire",      "category": "default"},
@@ -145,6 +177,22 @@
             },
             "Eriana": {
                 "range":    null,
+                "reload":   {"a": 0.000129019, "b": -0.0363945,     "c": 4.19575,  "mag_multiplier": false},
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "LastWord": {
+                "range":    {"zrm": 1,              "zrm_tier": 11,         "vpp": 0,       "base_min": 19.3,           "base_max": 29.6, "scale": true},
+                "reload":   {"a": 0.000129019, "b": -0.0363945,     "c": 4.19575,  "mag_multiplier": false},
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "Crimson": {
+                "range":    {"zrm": 1.375,              "zrm_tier": 14,         "vpp": 0,       "base_min": 24.3636,           "base_max": 29.6, "scale": true},
                 "reload":   {"a": 0.000129019, "b": -0.0363945,     "c": 4.19575,  "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
@@ -190,17 +238,18 @@
         }
     },
     "Pulse Rifle":{
-        "878286503":  {"name": "Rapid-Fire Frame",   "category": "default"},
-        "1019291327": {"name": "High-Impact Frame",  "category": "default"},
-        "1294026524": {"name": "Adaptive Frame",     "category": "default"},
-        "1458010786": {"name": "Lightweight Frame",  "category": "default"},
-        "2307143135": {"name": "Vigilance Wing",     "category": "default"},
-        "2874284214": {"name": "Aggressive Burst",   "category": "default"},
-        "3837077246": {"name": "No Time to Explain", "category": "default"},
-        "3905543891": {"name": "Graviton Lance",     "category": "default"},
-        "4004944400": {"name": "Bad Juju",           "category": "default"},
-        "4208418110": {"name": "Outbreak Perfected", "category": "default"},
-        "4172222323": {"name": "Legacy PR-55 Frame", "category": "default"},
+        "878286503":  {"name": "Rapid-Fire Frame",       "category": "default"},
+        "1019291327": {"name": "High-Impact Frame",      "category": "default"},
+        "1294026524": {"name": "Adaptive Frame",         "category": "default"},
+        "1458010786": {"name": "Lightweight Frame",      "category": "default"},
+        "2307143135": {"name": "Vigilance Wing",         "category": "default"},
+        "2874284214": {"name": "Aggressive Burst",       "category": "default"},
+        "3837077246": {"name": "No Time to Explain",     "category": "default"},
+        "3905543891": {"name": "Graviton Lance",         "category": "default"},
+        "4004944400": {"name": "Bad Juju",               "category": "default"},
+        "4208418110": {"name": "Outbreak Perfected",     "category": "default"},
+        "4172222323": {"name": "Legacy PR-55 Frame",     "category": "default"},
+        "3441203855": {"name": "Collective Obligation",  "category": "default"},
 
         "category": {
             "default": {
@@ -277,7 +326,7 @@
         "918679156":  {"name": "Precision Frame",     "category": "slug"   },
         "996573084":  {"name": "Rapid-Fire Frame",    "category": "default"},
         "1210807262": {"name": "Tractor Cannon",      "category": "Tractor"},
-        "1394384862": {"name": "Precision Slug",      "category": "slug"   },
+        "1394384862": {"name": "The Chaperone",       "category": "Chaperone"},
         "1458010786": {"name": "Lightweight Frame",   "category": "default"},
         "1636108362": {"name": "Precision Frame",     "category": "default"},
         "2223914385": {"name": "The Fourth Horseman", "category": "default"},
@@ -304,7 +353,7 @@
                 }
             },
             "LoW": {
-                "range":    null,
+                "range":    {"zrm": 1,                   "zrm_tier": 12,   "vpp": 0,           "base_min": 9,        "base_max": 9, "scale": false},
                 "reload":   {"a": 0.0000640462, "b": -0.0141721,   "c": 1.25061, "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
@@ -312,6 +361,14 @@
                 }
             },
             "Duality": {
+                "range":    null,
+                "reload":   {"a": 0.0000640462, "b": -0.0141721,   "c": 1.25061, "mag_multiplier": false},
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "Chaperone": {
                 "range":    null,
                 "reload":   {"a": 0.0000640462, "b": -0.0141721,   "c": 1.25061, "mag_multiplier": false},
                 "handling": {
@@ -342,12 +399,21 @@
         "2121086290": {"name": "Rat King",              "category": "default"},
         "3330548924": {"name": "Aggressive Burst",      "category": "default"},
         "3449390870": {"name": "Adaptive Frame",        "category": "default"},
-        "2984682260": {"name": "Forerunner",            "category": "default"},
+        "2641107734": {"name": "Trespasser",            "category": "default"},
+        "2984682260": {"name": "Forerunner",            "category": "Forerunner"},
 
         "category": {
             "default": {
                 "range":    {"zrm": 1.175,               "zrm_tier": 12,          "vpp": 0.0306,          "base_min": 11.94,      "base_max": 22.5, "scale": true},
                 "reload":   {"a": 0.0000238311, "b": -0.0124553, "c": 2.14667245000000, "mag_multiplier": false},
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "Forerunner": {
+                "range":    {"zrm": 1.975,               "zrm_tier": 20,          "vpp": 0,          "base_min": 28,      "base_max": 28, "scale": false},
+                "reload":   {"a": 0.0000238311, "b": -0.0124553, "c": 2.64667245000000, "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
                     "stow": {"vpp": -0.153306,           "number": 28.8991}
@@ -384,12 +450,21 @@
         "1636108362": {"name": "Precision Frame",   "category": "default"},
         "2213377102": {"name": "MIDA Synergy",      "category": "default"},
         "2516532331": {"name": "Riskrunner",        "category": "default"},
-        "2540536653": {"name": "Tarraba",           "category": "default"},
+        "2540536653": {"name": "Tarrabah",          "category": "default"},
         "3468089894": {"name": "Aggressive Frame",  "category": "default"},
+        "2965975126": {"name": "Osteo Striga",      "category": "striga"},
 
         "category": {
             "default": {
                 "range":    {"zrm": 1.275,     "zrm_tier": 13,          "vpp": 0.0891,          "base_min": 8.83,       "base_max": 24.5, "scale": false},
+                "reload":   {"a": 0.0000608642, "b": -0.0191345, "c": 2.62769, "mag_multiplier": false},
+                "handling": {
+                    "ready":{"vpp": -0.199386,           "number": 33.3015},
+                    "stow": {"vpp": -0.153306,           "number": 28.8991}
+                }
+            },
+            "striga": {
+                "range":    {"zrm": 1.275,     "zrm_tier": 13,          "vpp": 0.1247,          "base_min": 9.0835,       "base_max": 9.0835, "scale": false},
                 "reload":   {"a": 0.0000608642, "b": -0.0191345, "c": 2.62769, "mag_multiplier": false},
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
@@ -431,7 +506,7 @@
 
         "category": {
             "default": {
-                "range":    null,
+                "range":    {"zrm": 1.275,     "zrm_tier": 13,          "vpp": 0.0891,          "base_min": 8.83,       "base_max": 24.5, "scale": false},
                 "reload":   null,
                 "handling": {
                     "ready":{"vpp": -0.199386,           "number": 33.3015},
